@@ -101,27 +101,58 @@ def load_json(path: str | Path):
     return json.loads(Path(path).read_text())
 
 
+def _accuracy(gold_cases: list[dict], predictions: dict[str, str]) -> float:
+    return sum(predictions[case["id"]] == case["gold_section"] for case in gold_cases) / len(gold_cases) if gold_cases else 0.0
+
+
+def _recall_by_class(gold_cases: list[dict], predictions: dict[str, str]) -> dict[str, float]:
+    return {
+        label: (
+            sum(predictions[case["id"]] == label for case in gold_cases if case["gold_section"] == label)
+            / sum(case["gold_section"] == label for case in gold_cases)
+            if any(case["gold_section"] == label for case in gold_cases)
+            else 0.0
+        )
+        for label in SECTION_LABELS
+    }
+
+
+def _near_miss_accuracy(gold_cases: list[dict], predictions: dict[str, str]) -> float:
+    cases = [case for case in gold_cases if case.get("none_kind") == "near_miss"]
+    return sum(predictions[case["id"]] == SECTION_NONE for case in cases) / len(cases) if cases else 0.0
+
+
+def _best_baseline_threshold(gold_cases: list[dict], index: RegulationIndex) -> tuple[float, dict[str, str]]:
+    scores = [index.retrieve(case["narrative"], top_k=1)[0]["score"] for case in gold_cases]
+    candidates = sorted({0.0, *scores})
+    scored = []
+    for threshold in candidates:
+        predictions = {case["id"]: index.top_section(case["narrative"], threshold=threshold) for case in gold_cases}
+        scored.append((threshold, _accuracy(gold_cases, predictions), predictions))
+    threshold, _, predictions = max(scored, key=lambda item: (item[1], -item[0]))
+    return threshold, predictions
+
+
 def evaluate(gold_cases: list[dict], predicted: list[dict], index: RegulationIndex) -> dict:
     """Compute the brief's headline and supporting metrics from recorded runs."""
 
     gold_by_id = {case["id"]: case for case in gold_cases}
     correct = 0
-    baseline_correct = 0
     positive_total = 0
     recall_at_3 = 0
     verbatim_total = 0
     verbatim_ok = 0
     latencies = []
     rows = []
+    agent_predictions = {}
     for item in predicted:
         case = gold_by_id[item["id"]]
         gold = case["gold_section"]
         answer = AgentAnswer.model_validate(item["answer"])
         retrieved = item["retrieved"]
         predicted_section = answer.section if item["valid"] else SECTION_NONE
-        baseline_section = index.top_section(case["narrative"])
+        agent_predictions[case["id"]] = predicted_section
         correct += predicted_section == gold
-        baseline_correct += baseline_section == gold
         if gold != SECTION_NONE:
             positive_total += 1
             recall_at_3 += gold in {row["section"] for row in retrieved}
@@ -129,22 +160,33 @@ def evaluate(gold_cases: list[dict], predicted: list[dict], index: RegulationInd
             verbatim_total += 1
             verbatim_ok += item["valid"]
         latencies.append(float(item["latency_ms"]))
-        rows.append(
-            {
-                "id": case["id"],
-                "gold": gold,
-                "predicted": predicted_section,
-                "baseline": baseline_section,
-                "valid_quote": item["valid"],
-            }
-        )
+        rows.append({"id": case["id"], "gold": gold, "predicted": predicted_section, "valid_quote": item["valid"]})
     latencies.sort()
     median_latency = latencies[len(latencies) // 2] if latencies else 0.0
     total = len(gold_cases)
+    threshold0_predictions = {case["id"]: index.top_section(case["narrative"], threshold=0.0) for case in gold_cases}
+    tuned_threshold, tuned_predictions = _best_baseline_threshold(gold_cases, index)
+    class_recall = {
+        "agent": _recall_by_class(gold_cases, agent_predictions),
+        "baseline_tuned": _recall_by_class(gold_cases, tuned_predictions),
+        "baseline_threshold0": _recall_by_class(gold_cases, threshold0_predictions),
+    }
+    for row in rows:
+        row["baseline_tuned"] = tuned_predictions[row["id"]]
+        row["baseline_threshold0"] = threshold0_predictions[row["id"]]
     return {
         "total": total,
         "agent_accuracy": correct / total if total else 0.0,
-        "baseline_accuracy": baseline_correct / total if total else 0.0,
+        "baseline_accuracy": _accuracy(gold_cases, tuned_predictions),
+        "baseline_tuned_accuracy": _accuracy(gold_cases, tuned_predictions),
+        "baseline_threshold0_accuracy": _accuracy(gold_cases, threshold0_predictions),
+        "baseline_tuned_threshold": tuned_threshold,
+        "class_recall": class_recall,
+        "near_miss_none_accuracy": {
+            "agent": _near_miss_accuracy(gold_cases, agent_predictions),
+            "baseline_tuned": _near_miss_accuracy(gold_cases, tuned_predictions),
+            "baseline_threshold0": _near_miss_accuracy(gold_cases, threshold0_predictions),
+        },
         "retrieval_recall_at_3": recall_at_3 / positive_total if positive_total else 0.0,
         "verbatim_quote_rate": verbatim_ok / verbatim_total if verbatim_total else 1.0,
         "verbatim_quote_count": verbatim_ok,

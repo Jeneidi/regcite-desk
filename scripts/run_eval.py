@@ -1,4 +1,4 @@
-"""Run the cached Claude agent over the 60 hand-reviewed CFPB cases."""
+"""Run the cached Claude agent over the 60 category-labeled CFPB cases."""
 
 from __future__ import annotations
 
@@ -112,7 +112,8 @@ def main() -> None:
     metrics = evaluate(cases, runs, index)
     metrics["model"] = MODEL_LABEL
     metrics["recorded_date"] = str(date.today())
-    metrics["llm_calls_used"] = len(cases)
+    metrics["llm_calls_used"] = llm_calls
+    metrics["llm_calls_total"] = len(cases)
     metrics["llm_calls_cached"] = len(cases) - llm_calls
     (DATA / "agent_runs.json").write_text(json.dumps(runs, indent=2, ensure_ascii=False) + "\n")
     recorded_ids = {case["id"] for case in load_json(DATA / "recorded_cases.json")}

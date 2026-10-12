@@ -1,6 +1,8 @@
 import json
+import inspect
 from pathlib import Path
 
+import scripts.prepare_data as prepare_data
 from src.regcite import AgentAnswer, RegulationIndex, evaluate, validate_answer
 
 
@@ -42,11 +44,34 @@ def test_metric_math_is_exact():
     ]
     result = evaluate(cases, predicted, RegulationIndex(REGULATIONS))
     assert result["agent_accuracy"] == 1.0
-    assert result["baseline_accuracy"] == 0.5
+    assert result["baseline_accuracy"] == 1.0
+    assert result["baseline_threshold0_accuracy"] == 0.5
     assert result["median_latency_ms"] == 30
 
 
 def test_recorded_demo_does_not_ship_eval_labels():
     recorded = json.loads((ROOT / "site/data/recorded_cases.json").read_text())
-    assert len(recorded) == 30
+    assert len(recorded) == 8
     assert all("gold_section" not in case and "label_basis" not in case for case in recorded)
+
+
+def test_cfpb_label_table_maps_categories_without_narrative_regex():
+    examples = [
+        {"Product": "Credit card or prepaid card", "Issue": "Problem with a purchase shown on your statement"},
+        {"Product": "Checking or savings account", "Issue": "Managing an account", "Sub-issue": "Banking errors"},
+        {"Product": "Money transfer, virtual currency, or money service", "Issue": "Unauthorized transactions or other transaction problem"},
+        {"Product": "Credit card or prepaid card", "Issue": "Closing your account"},
+        {"Product": "Mortgage", "Issue": "Trouble during payment process"},
+    ]
+    assert [prepare_data.label_for(row) for row in examples] == [
+        ("1026.13", ""),
+        ("1005.11", ""),
+        ("1005.11", ""),
+        ("none", "near_miss"),
+        ("none", "other_product"),
+    ]
+    source = inspect.getsource(prepare_data.choose_cases)
+    assert "REG_E_WORDS" not in source
+    assert "REG_Z_WORDS" not in source
+    assert "search(" not in source
+    assert "findall(" not in source
