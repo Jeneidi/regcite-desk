@@ -6,7 +6,10 @@
 }
 
 body { overflow-x: clip; }
-.hero { position: relative; min-height: min(760px, calc(100svh - var(--header))); display: grid; align-content: center; grid-template-columns: minmax(0, 1fr) minmax(300px, 0.75fr); gap: clamp(2rem, 7vw, 7rem); }
+.hero { position: relative; min-height: min(760px, calc(100svh - var(--header))); display: grid; align-content: center; grid-template-columns: minmax(0, 1fr) minmax(300px, 0.75fr); column-gap: clamp(2rem, 7vw, 7rem); row-gap: 0; text-align: start; }
+.hero .display { font-size: clamp(2.6rem, 1rem + 4.2vw, 5.25rem); }
+.hero .lead { margin-inline: 0; }
+.hero .hero-actions { justify-content: flex-start; }
 .hero-sub { grid-column: 1; }
 .hero-actions { grid-column: 1; }
 .hero-audit { grid-column: 2; grid-row: 1 / span 3; align-self: center; }
@@ -38,12 +41,6 @@ body { overflow-x: clip; }
 .stat { min-width: 0; }
 .stat b { font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
 .stat span { max-width: 12ch; margin-inline: auto; }
-.steps { counter-reset: step; }
-.steps li { position: relative; padding-left: 4.2rem; }
-.steps li::before { counter-increment: step; content: counter(step, decimal-leading-zero); position: absolute; left: 0; top: .1rem; color: var(--color-tungsten); font-family: var(--font-mono); font-size: .9rem; }
-.steps li:not(:last-child)::after { content: ""; position: absolute; left: .43rem; top: 2rem; height: calc(100% - .3rem); border-left: 1px solid var(--color-rule); }
-.steps b { color: var(--color-ivory); }
-.steps p { margin-top: .3rem; color: var(--soft); }
 .demo-layout { display: grid; gap: 1rem; }
 .demo-toolbar { display: flex; align-items: center; justify-content: space-between; gap: 1rem; margin-bottom: .9rem; }
 .demo-toolbar .label { margin: 0; }
@@ -85,7 +82,7 @@ body { overflow-x: clip; }
 
 @media (max-width: 900px) {
   .hero { grid-template-columns: 1fr; min-height: auto; padding-top: 5.5rem; padding-bottom: 5.5rem; }
-  .hero-audit { grid-column: 1; grid-row: auto; }
+  .hero-audit { grid-column: 1; grid-row: auto; margin-top: 2.5rem; }
   .stats { grid-template-columns: repeat(2, 1fr); row-gap: 2rem; }
   .case-output-grid { grid-template-columns: 1fr; }
 }

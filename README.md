@@ -10,7 +10,7 @@ Banks route complaints and disputes under Regulation E and Regulation Z deadline
 
 ## The result
 
-On 60 CFPB narratives labeled from the consumer-selected Product, Issue, and Sub-issue fields, the recorded Claude agent reached 75% accuracy versus 35% for a BM25 baseline tuned on these same 60 cases. The threshold-0 BM25 reference reached 33.33333333333333%.
+On 60 CFPB narratives labeled from the consumer-selected Product, Issue, and Sub-issue fields, the recorded Claude agent reached 75% accuracy versus 35% for a BM25 baseline tuned on these same 60 cases. The threshold-0 BM25 reference reached 33.3%.
 
 The agent recalled 65% of 1005.11 cases, 65% of 1026.13 cases, and 95% of none cases. It reached 100% accuracy on the 10 near-miss none cases, versus 10% for tuned BM25 and 0% for threshold-0 BM25. Retrieval recall at 3 was 100%, and all 29 cited outputs passed the exact substring check. Median model latency was 8801.04 ms and cash cost was $0.00.
 
@@ -53,7 +53,7 @@ The evaluation has 20 cases per class. The baseline ranks the two sections with 
 
 | Metric | Agent | Tuned BM25 | Threshold-0 BM25 |
 |---|---:|---:|---:|
-| Overall accuracy | 75% | 35% | 33.33333333333333% |
+| Overall accuracy | 75% | 35% | 33.3% |
 | Recall, 1005.11 | 65% | 70% | 75% |
 | Recall, 1026.13 | 65% | 25% | 25% |
 | Recall, none | 95% | 10% | 0% |
