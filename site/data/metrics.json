@@ -1,0 +1,437 @@
+{
+  "total": 60,
+  "agent_accuracy": 0.4,
+  "baseline_accuracy": 0.5,
+  "retrieval_recall_at_3": 1.0,
+  "verbatim_quote_rate": 1.0,
+  "verbatim_quote_count": 18,
+  "verbatim_quote_total": 18,
+  "median_latency_ms": 8050.18,
+  "cash_cost_usd": 0.0,
+  "rows": [
+    {
+      "id": "2892126",
+      "gold": "1005.11",
+      "predicted": "1005.11",
+      "baseline": "1005.11",
+      "valid_quote": true
+    },
+    {
+      "id": "2892265",
+      "gold": "1005.11",
+      "predicted": "none",
+      "baseline": "1005.11",
+      "valid_quote": true
+    },
+    {
+      "id": "2893270",
+      "gold": "1005.11",
+      "predicted": "none",
+      "baseline": "1005.11",
+      "valid_quote": true
+    },
+    {
+      "id": "2893320",
+      "gold": "1005.11",
+      "predicted": "none",
+      "baseline": "1005.11",
+      "valid_quote": true
+    },
+    {
+      "id": "2893322",
+      "gold": "1005.11",
+      "predicted": "none",
+      "baseline": "1005.11",
+      "valid_quote": true
+    },
+    {
+      "id": "2893346",
+      "gold": "1005.11",
+      "predicted": "none",
+      "baseline": "1005.11",
+      "valid_quote": true
+    },
+    {
+      "id": "2893485",
+      "gold": "1005.11",
+      "predicted": "1005.11",
+      "baseline": "1026.13",
+      "valid_quote": true
+    },
+    {
+      "id": "2893539",
+      "gold": "1005.11",
+      "predicted": "none",
+      "baseline": "1005.11",
+      "valid_quote": true
+    },
+    {
+      "id": "2893586",
+      "gold": "1005.11",
+      "predicted": "1005.11",
+      "baseline": "1005.11",
+      "valid_quote": true
+    },
+    {
+      "id": "2893589",
+      "gold": "1005.11",
+      "predicted": "1005.11",
+      "baseline": "1005.11",
+      "valid_quote": true
+    },
+    {
+      "id": "2892616",
+      "gold": "1005.11",
+      "predicted": "1005.11",
+      "baseline": "1005.11",
+      "valid_quote": true
+    },
+    {
+      "id": "2892849",
+      "gold": "1005.11",
+      "predicted": "1005.11",
+      "baseline": "1005.11",
+      "valid_quote": true
+    },
+    {
+      "id": "2892796",
+      "gold": "1005.11",
+      "predicted": "1005.11",
+      "baseline": "1026.13",
+      "valid_quote": true
+    },
+    {
+      "id": "2892873",
+      "gold": "1005.11",
+      "predicted": "none",
+      "baseline": "1005.11",
+      "valid_quote": true
+    },
+    {
+      "id": "2892742",
+      "gold": "1005.11",
+      "predicted": "none",
+      "baseline": "1005.11",
+      "valid_quote": true
+    },
+    {
+      "id": "2892957",
+      "gold": "1005.11",
+      "predicted": "1026.13",
+      "baseline": "1026.13",
+      "valid_quote": true
+    },
+    {
+      "id": "2892987",
+      "gold": "1005.11",
+      "predicted": "1005.11",
+      "baseline": "1005.11",
+      "valid_quote": true
+    },
+    {
+      "id": "2893107",
+      "gold": "1005.11",
+      "predicted": "none",
+      "baseline": "1005.11",
+      "valid_quote": true
+    },
+    {
+      "id": "2893173",
+      "gold": "1005.11",
+      "predicted": "1005.11",
+      "baseline": "1005.11",
+      "valid_quote": true
+    },
+    {
+      "id": "2893904",
+      "gold": "1005.11",
+      "predicted": "none",
+      "baseline": "1026.13",
+      "valid_quote": true
+    },
+    {
+      "id": "2893864",
+      "gold": "1005.11",
+      "predicted": "none",
+      "baseline": "1005.11",
+      "valid_quote": true
+    },
+    {
+      "id": "2893920",
+      "gold": "1005.11",
+      "predicted": "none",
+      "baseline": "1005.11",
+      "valid_quote": true
+    },
+    {
+      "id": "2893959",
+      "gold": "1005.11",
+      "predicted": "none",
+      "baseline": "1005.11",
+      "valid_quote": true
+    },
+    {
+      "id": "2893969",
+      "gold": "1005.11",
+      "predicted": "none",
+      "baseline": "1005.11",
+      "valid_quote": true
+    },
+    {
+      "id": "2894023",
+      "gold": "1005.11",
+      "predicted": "none",
+      "baseline": "1005.11",
+      "valid_quote": true
+    },
+    {
+      "id": "2894025",
+      "gold": "1005.11",
+      "predicted": "none",
+      "baseline": "1026.13",
+      "valid_quote": true
+    },
+    {
+      "id": "2894926",
+      "gold": "1005.11",
+      "predicted": "1005.11",
+      "baseline": "1005.11",
+      "valid_quote": true
+    },
+    {
+      "id": "2894056",
+      "gold": "1005.11",
+      "predicted": "none",
+      "baseline": "1005.11",
+      "valid_quote": true
+    },
+    {
+      "id": "2894070",
+      "gold": "1005.11",
+      "predicted": "1005.11",
+      "baseline": "1005.11",
+      "valid_quote": true
+    },
+    {
+      "id": "2894087",
+      "gold": "1005.11",
+      "predicted": "none",
+      "baseline": "1005.11",
+      "valid_quote": true
+    },
+    {
+      "id": "2892152",
+      "gold": "1026.13",
+      "predicted": "none",
+      "baseline": "1026.13",
+      "valid_quote": true
+    },
+    {
+      "id": "2892171",
+      "gold": "1026.13",
+      "predicted": "1005.11",
+      "baseline": "1026.13",
+      "valid_quote": true
+    },
+    {
+      "id": "2892278",
+      "gold": "1026.13",
+      "predicted": "none",
+      "baseline": "1005.11",
+      "valid_quote": true
+    },
+    {
+      "id": "2892302",
+      "gold": "1026.13",
+      "predicted": "none",
+      "baseline": "1005.11",
+      "valid_quote": true
+    },
+    {
+      "id": "2892301",
+      "gold": "1026.13",
+      "predicted": "none",
+      "baseline": "1005.11",
+      "valid_quote": true
+    },
+    {
+      "id": "2893293",
+      "gold": "1026.13",
+      "predicted": "none",
+      "baseline": "1026.13",
+      "valid_quote": true
+    },
+    {
+      "id": "2893333",
+      "gold": "1026.13",
+      "predicted": "none",
+      "baseline": "1005.11",
+      "valid_quote": true
+    },
+    {
+      "id": "2893338",
+      "gold": "1026.13",
+      "predicted": "1026.13",
+      "baseline": "1005.11",
+      "valid_quote": true
+    },
+    {
+      "id": "2893343",
+      "gold": "1026.13",
+      "predicted": "1026.13",
+      "baseline": "1005.11",
+      "valid_quote": true
+    },
+    {
+      "id": "2893353",
+      "gold": "1026.13",
+      "predicted": "none",
+      "baseline": "1005.11",
+      "valid_quote": true
+    },
+    {
+      "id": "2893377",
+      "gold": "1026.13",
+      "predicted": "none",
+      "baseline": "1005.11",
+      "valid_quote": true
+    },
+    {
+      "id": "2893383",
+      "gold": "1026.13",
+      "predicted": "none",
+      "baseline": "1026.13",
+      "valid_quote": true
+    },
+    {
+      "id": "2893435",
+      "gold": "1026.13",
+      "predicted": "none",
+      "baseline": "1005.11",
+      "valid_quote": true
+    },
+    {
+      "id": "2893436",
+      "gold": "1026.13",
+      "predicted": "none",
+      "baseline": "1005.11",
+      "valid_quote": true
+    },
+    {
+      "id": "2893443",
+      "gold": "1026.13",
+      "predicted": "1026.13",
+      "baseline": "1026.13",
+      "valid_quote": true
+    },
+    {
+      "id": "2893464",
+      "gold": "1026.13",
+      "predicted": "none",
+      "baseline": "1005.11",
+      "valid_quote": true
+    },
+    {
+      "id": "2892615",
+      "gold": "1026.13",
+      "predicted": "none",
+      "baseline": "1005.11",
+      "valid_quote": true
+    },
+    {
+      "id": "2893565",
+      "gold": "1026.13",
+      "predicted": "1026.13",
+      "baseline": "1005.11",
+      "valid_quote": true
+    },
+    {
+      "id": "2893583",
+      "gold": "1026.13",
+      "predicted": "none",
+      "baseline": "1005.11",
+      "valid_quote": true
+    },
+    {
+      "id": "2892512",
+      "gold": "1026.13",
+      "predicted": "none",
+      "baseline": "1005.11",
+      "valid_quote": true
+    },
+    {
+      "id": "3109824",
+      "gold": "none",
+      "predicted": "none",
+      "baseline": "1005.11",
+      "valid_quote": true
+    },
+    {
+      "id": "4013536",
+      "gold": "none",
+      "predicted": "none",
+      "baseline": "1005.11",
+      "valid_quote": true
+    },
+    {
+      "id": "3305406",
+      "gold": "none",
+      "predicted": "none",
+      "baseline": "1026.13",
+      "valid_quote": true
+    },
+    {
+      "id": "3401596",
+      "gold": "none",
+      "predicted": "none",
+      "baseline": "1005.11",
+      "valid_quote": true
+    },
+    {
+      "id": "3252713",
+      "gold": "none",
+      "predicted": "none",
+      "baseline": "1005.11",
+      "valid_quote": true
+    },
+    {
+      "id": "3731668",
+      "gold": "none",
+      "predicted": "none",
+      "baseline": "1026.13",
+      "valid_quote": true
+    },
+    {
+      "id": "3003880",
+      "gold": "none",
+      "predicted": "1005.11",
+      "baseline": "1005.11",
+      "valid_quote": true
+    },
+    {
+      "id": "4067660",
+      "gold": "none",
+      "predicted": "none",
+      "baseline": "1005.11",
+      "valid_quote": true
+    },
+    {
+      "id": "2892141",
+      "gold": "none",
+      "predicted": "none",
+      "baseline": "1005.11",
+      "valid_quote": true
+    },
+    {
+      "id": "2892145",
+      "gold": "none",
+      "predicted": "none",
+      "baseline": "1026.13",
+      "valid_quote": true
+    }
+  ],
+  "model": "Claude Haiku 5.5 via Claude Code",
+  "recorded_date": "2026-10-12",
+  "llm_calls_used": 60,
+  "llm_calls_cached": 60
+}

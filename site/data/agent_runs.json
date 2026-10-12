@@ -1,0 +1,1502 @@
+[
+  {
+    "id": "2892126",
+    "answer": {
+      "section": "1005.11",
+      "quote": "(ii) An incorrect electronic fund transfer to or from the consumer's account;",
+      "reason": "The complaint describes an ATM cash deposit, an electronic fund transfer, where the credited amount was later reversed by the bank as incorrect."
+    },
+    "retrieved": [
+      {
+        "section": "1005.11",
+        "score": 132.8035086843016,
+        "paragraph": "(i) The applicable time is 20 business days in place of 10 business days under paragraphs (c)(1) and (2) of this section if the notice of error involves an electronic fund transfer to or from the account within 30 days after the first deposit to the account was made."
+      },
+      {
+        "section": "1026.13",
+        "score": 101.6598345104016,
+        "paragraph": "(i) Promptly reports that the amount or account is in dispute;"
+      }
+    ],
+    "valid": true,
+    "validation": "verbatim quote matched fetched eCFR text",
+    "latency_ms": 8275.46,
+    "model": "Claude Haiku 5.5 via Claude Code",
+    "recorded_date": "2026-10-12"
+  },
+  {
+    "id": "2892265",
+    "answer": {
+      "section": "none",
+      "quote": "",
+      "reason": "The complaint describes funds frozen and not released by a money service provider. It does not describe an unauthorized, incorrect, or omitted electronic fund transfer, an account error under 1005.11, or a credit card billing error under 1026.13."
+    },
+    "retrieved": [
+      {
+        "section": "1005.11",
+        "score": 12.138170632969716,
+        "paragraph": "(ii) Notify the consumer that the institution will honor checks, drafts, or similar instruments payable to third parties and preauthorized transfers from the consumer's account (without charge to the consumer as a result of an overdraft) for five business days after the notification. The institution shall honor items as specified in the notice, but need honor only items that it would have paid if the provisionally credited funds had not been debited."
+      },
+      {
+        "section": "1026.13",
+        "score": 9.182820470826908,
+        "paragraph": "(i) Promptly reports that the amount or account is in dispute;"
+      }
+    ],
+    "valid": true,
+    "validation": "refusal has no quote",
+    "latency_ms": 7141.49,
+    "model": "Claude Haiku 5.5 via Claude Code",
+    "recorded_date": "2026-10-12"
+  },
+  {
+    "id": "2893270",
+    "answer": {
+      "section": "none",
+      "quote": "",
+      "reason": "The complaint describes a deposit that never arrived and a transfer the bank would not allow, then disputes an owed balance. It does not clearly describe an electronic fund transfer error or an account error under 1005.11(a), and it does not describe a credit card billing error under 1026.13(a)."
+    },
+    "retrieved": [
+      {
+        "section": "1005.11",
+        "score": 25.98953120997049,
+        "paragraph": "(i) The applicable time is 20 business days in place of 10 business days under paragraphs (c)(1) and (2) of this section if the notice of error involves an electronic fund transfer to or from the account within 30 days after the first deposit to the account was made."
+      },
+      {
+        "section": "1026.13",
+        "score": 24.381384452843516,
+        "paragraph": "(i) Promptly reports that the amount or account is in dispute;"
+      }
+    ],
+    "valid": true,
+    "validation": "refusal has no quote",
+    "latency_ms": 6777.08,
+    "model": "Claude Haiku 5.5 via Claude Code",
+    "recorded_date": "2026-10-12"
+  },
+  {
+    "id": "2893320",
+    "answer": {
+      "section": "none",
+      "quote": "",
+      "reason": "Complaint covers account closure, frozen funds, a fraud claim filed by a third party, a bounced check debited twice, and fees. It does not clearly describe an electronic fund transfer error under 1005.11, and it involves no credit card, so 1026.13 does not apply."
+    },
+    "retrieved": [
+      {
+        "section": "1005.11",
+        "score": 28.60577946033762,
+        "paragraph": "(ii) Notify the consumer that the institution will honor checks, drafts, or similar instruments payable to third parties and preauthorized transfers from the consumer's account (without charge to the consumer as a result of an overdraft) for five business days after the notification. The institution shall honor items as specified in the notice, but need honor only items that it would have paid if the provisionally credited funds had not been debited."
+      },
+      {
+        "section": "1026.13",
+        "score": 24.12918963055772,
+        "paragraph": "(2) With regard to a covered separate credit feature and an asset feature of a prepaid account where both are accessible by a hybrid prepaid-credit card as defined in § 1026.61, an extension of credit that is incident to an electronic fund transfer occurs when the hybrid prepaid-credit card accesses both funds in the asset feature of the prepaid account and a credit extension from the credit feature with respect to a particular transaction."
+      }
+    ],
+    "valid": true,
+    "validation": "refusal has no quote",
+    "latency_ms": 7305.76,
+    "model": "Claude Haiku 5.5 via Claude Code",
+    "recorded_date": "2026-10-12"
+  },
+  {
+    "id": "2893322",
+    "answer": {
+      "section": "none",
+      "quote": "",
+      "reason": "The complaint is about credit reporting after the bank reversed debit card dispute outcomes it had found in the consumer's favor. It does not clearly allege an unauthorized, incorrect, or omitted electronic fund transfer or an account error under 1005.11(a)(1). The product is a checking account, not a credit card, so 1026.13 does not apply."
+    },
+    "retrieved": [
+      {
+        "section": "1005.11",
+        "score": 22.32542053072011,
+        "paragraph": "(i) A routine inquiry about the consumer's account balance;"
+      },
+      {
+        "section": "1026.13",
+        "score": 15.0484434004737,
+        "paragraph": "(1) Consumer's right to withhold disputed amount; collection action prohibited. The consumer need not pay (and the creditor may not try to collect) any portion of any required payment that the consumer believes is related to the disputed amount (including related finance or other charges). If the cardholder has enrolled in an automatic payment plan offered by the card issuer and has agreed to pay the credit card indebtedness by periodic deductions from the cardholder's deposit account, the card issuer shall not deduct any part of the disputed amount or related finance or other charges if a billing error notice is received any time up to 3 business days before the scheduled payment date."
+      }
+    ],
+    "valid": true,
+    "validation": "refusal has no quote",
+    "latency_ms": 9776.93,
+    "model": "Claude Haiku 5.5 via Claude Code",
+    "recorded_date": "2026-10-12"
+  },
+  {
+    "id": "2893346",
+    "answer": {
+      "section": "none",
+      "quote": "",
+      "reason": "The complaint describes a withdrawal the consumer initiated, then a bank-side account block that stopped access to the funds. It does not describe an unauthorized, incorrect, omitted, or computational electronic fund transfer error under 1005.11(a)(1), and it is not a credit card billing error under 1026.13."
+    },
+    "retrieved": [
+      {
+        "section": "1005.11",
+        "score": 129.3861139040123,
+        "paragraph": "(i) The applicable time is 20 business days in place of 10 business days under paragraphs (c)(1) and (2) of this section if the notice of error involves an electronic fund transfer to or from the account within 30 days after the first deposit to the account was made."
+      },
+      {
+        "section": "1026.13",
+        "score": 119.21813902581708,
+        "paragraph": "(i) Promptly reports that the amount or account is in dispute;"
+      }
+    ],
+    "valid": true,
+    "validation": "refusal has no quote",
+    "latency_ms": 10558.45,
+    "model": "Claude Haiku 5.5 via Claude Code",
+    "recorded_date": "2026-10-12"
+  },
+  {
+    "id": "2893485",
+    "answer": {
+      "section": "1005.11",
+      "quote": "(ii) An incorrect electronic fund transfer to or from the consumer's account;",
+      "reason": "The complaint describes bill payments debited electronically from the consumer's checking account, which is an electronic fund transfer. The payments left the account as scheduled but did not reach the payee for weeks, which fits an incorrect electronic fund transfer under paragraph (a)(1)(ii)."
+    },
+    "retrieved": [
+      {
+        "section": "1026.13",
+        "score": 136.2763339653186,
+        "paragraph": "(1) Consumer's right to withhold disputed amount; collection action prohibited. The consumer need not pay (and the creditor may not try to collect) any portion of any required payment that the consumer believes is related to the disputed amount (including related finance or other charges). If the cardholder has enrolled in an automatic payment plan offered by the card issuer and has agreed to pay the credit card indebtedness by periodic deductions from the cardholder's deposit account, the card issuer shall not deduct any part of the disputed amount or related finance or other charges if a billing error notice is received any time up to 3 business days before the scheduled payment date."
+      },
+      {
+        "section": "1005.11",
+        "score": 87.83427849682353,
+        "paragraph": "(ii) Notify the consumer that the institution will honor checks, drafts, or similar instruments payable to third parties and preauthorized transfers from the consumer's account (without charge to the consumer as a result of an overdraft) for five business days after the notification. The institution shall honor items as specified in the notice, but need honor only items that it would have paid if the provisionally credited funds had not been debited."
+      }
+    ],
+    "valid": true,
+    "validation": "verbatim quote matched fetched eCFR text",
+    "latency_ms": 15298.01,
+    "model": "Claude Haiku 5.5 via Claude Code",
+    "recorded_date": "2026-10-12"
+  },
+  {
+    "id": "2893539",
+    "answer": {
+      "section": "none",
+      "quote": "",
+      "reason": "The complaint concerns a promotional bonus that was not paid because the customer did not meet the account balance requirement during the first statement cycles. It does not describe an unauthorized, incorrect, omitted, or computational electronic fund transfer error under 1005.11, and it does not describe a credit card billing error under 1026.13."
+    },
+    "retrieved": [
+      {
+        "section": "1005.11",
+        "score": 59.558564435516075,
+        "paragraph": "(i) The applicable time is 20 business days in place of 10 business days under paragraphs (c)(1) and (2) of this section if the notice of error involves an electronic fund transfer to or from the account within 30 days after the first deposit to the account was made."
+      },
+      {
+        "section": "1026.13",
+        "score": 49.36630112047635,
+        "paragraph": "(7) The creditor's failure to mail or deliver a periodic statement to the consumer's last known address if that address was received by the creditor, in writing, at least 20 days before the end of the billing cycle for which the statement was required."
+      }
+    ],
+    "valid": true,
+    "validation": "refusal has no quote",
+    "latency_ms": 6331.57,
+    "model": "Claude Haiku 5.5 via Claude Code",
+    "recorded_date": "2026-10-12"
+  },
+  {
+    "id": "2893586",
+    "answer": {
+      "section": "1005.11",
+      "quote": "(i) An unauthorized electronic fund transfer;",
+      "reason": "The complaint describes debit card charges on a checking account that the consumer says were fraudulent after the card was compromised and stolen. Those are unauthorized electronic fund transfers. It does not describe a credit card billing error, so 1026.13 does not apply."
+    },
+    "retrieved": [
+      {
+        "section": "1005.11",
+        "score": 140.0776958259888,
+        "paragraph": "(i) The applicable time is 20 business days in place of 10 business days under paragraphs (c)(1) and (2) of this section if the notice of error involves an electronic fund transfer to or from the account within 30 days after the first deposit to the account was made."
+      },
+      {
+        "section": "1026.13",
+        "score": 139.60382429650562,
+        "paragraph": "(7) The creditor's failure to mail or deliver a periodic statement to the consumer's last known address if that address was received by the creditor, in writing, at least 20 days before the end of the billing cycle for which the statement was required."
+      }
+    ],
+    "valid": true,
+    "validation": "verbatim quote matched fetched eCFR text",
+    "latency_ms": 8863.88,
+    "model": "Claude Haiku 5.5 via Claude Code",
+    "recorded_date": "2026-10-12"
+  },
+  {
+    "id": "2893589",
+    "answer": {
+      "section": "1005.11",
+      "quote": "(i) An unauthorized electronic fund transfer;",
+      "reason": "The complaint describes money taken from a checking account through fraudulent use of stolen debit cards, which is an unauthorized electronic fund transfer. The account is checking, not credit, so 1026.13 does not apply."
+    },
+    "retrieved": [
+      {
+        "section": "1005.11",
+        "score": 66.07806720286572,
+        "paragraph": "(ii) Notify the consumer that the institution will honor checks, drafts, or similar instruments payable to third parties and preauthorized transfers from the consumer's account (without charge to the consumer as a result of an overdraft) for five business days after the notification. The institution shall honor items as specified in the notice, but need honor only items that it would have paid if the provisionally credited funds had not been debited."
+      },
+      {
+        "section": "1026.13",
+        "score": 56.49282371244194,
+        "paragraph": "(2) With regard to a covered separate credit feature and an asset feature of a prepaid account where both are accessible by a hybrid prepaid-credit card as defined in § 1026.61, an extension of credit that is incident to an electronic fund transfer occurs when the hybrid prepaid-credit card accesses both funds in the asset feature of the prepaid account and a credit extension from the credit feature with respect to a particular transaction."
+      }
+    ],
+    "valid": true,
+    "validation": "verbatim quote matched fetched eCFR text",
+    "latency_ms": 9084.74,
+    "model": "Claude Haiku 5.5 via Claude Code",
+    "recorded_date": "2026-10-12"
+  },
+  {
+    "id": "2892616",
+    "answer": {
+      "section": "1005.11",
+      "quote": "(ii) An incorrect electronic fund transfer to or from the consumer's account;",
+      "reason": "The complaint concerns debit card charges, which are electronic fund transfers. It alleges overdraft fees were charged in error despite the opt-out, an incorrect transfer to or from the account."
+    },
+    "retrieved": [
+      {
+        "section": "1005.11",
+        "score": 57.48762549189302,
+        "paragraph": "(ii) Notify the consumer that the institution will honor checks, drafts, or similar instruments payable to third parties and preauthorized transfers from the consumer's account (without charge to the consumer as a result of an overdraft) for five business days after the notification. The institution shall honor items as specified in the notice, but need honor only items that it would have paid if the provisionally credited funds had not been debited."
+      },
+      {
+        "section": "1026.13",
+        "score": 53.95481564779203,
+        "paragraph": "(4) Permitted creditor actions. A creditor is not prohibited from taking action to collect any undisputed portion of the item or bill; from deducting any disputed amount and related finance or other charges from the consumer's credit limit on the account; or from reflecting a disputed amount and related finance or other charges on a periodic statement, provided that the creditor indicates on or with the periodic statement that payment of any disputed amount and related finance or other charges is not required pending the creditor's compliance with this section."
+      }
+    ],
+    "valid": true,
+    "validation": "verbatim quote matched fetched eCFR text",
+    "latency_ms": 12475.69,
+    "model": "Claude Haiku 5.5 via Claude Code",
+    "recorded_date": "2026-10-12"
+  },
+  {
+    "id": "2892849",
+    "answer": {
+      "section": "1005.11",
+      "quote": "(i) An unauthorized electronic fund transfer;",
+      "reason": "The complaint describes a $2,400 transfer from a Wells Fargo checking account to an unauthorized recipient after online credentials were changed without authorization. That is an unauthorized electronic fund transfer covered by the 1005.11(a)(1)(i) error definition. It is not a credit card billing error, so 1026.13 does not apply."
+    },
+    "retrieved": [
+      {
+        "section": "1005.11",
+        "score": 47.44368393578224,
+        "paragraph": "(i) The applicable time is 20 business days in place of 10 business days under paragraphs (c)(1) and (2) of this section if the notice of error involves an electronic fund transfer to or from the account within 30 days after the first deposit to the account was made."
+      },
+      {
+        "section": "1026.13",
+        "score": 43.14597423353405,
+        "paragraph": "(7) The creditor's failure to mail or deliver a periodic statement to the consumer's last known address if that address was received by the creditor, in writing, at least 20 days before the end of the billing cycle for which the statement was required."
+      }
+    ],
+    "valid": true,
+    "validation": "verbatim quote matched fetched eCFR text",
+    "latency_ms": 7788.66,
+    "model": "Claude Haiku 5.5 via Claude Code",
+    "recorded_date": "2026-10-12"
+  },
+  {
+    "id": "2892796",
+    "answer": {
+      "section": "1005.11",
+      "quote": "(i) An unauthorized electronic fund transfer;",
+      "reason": "The complaint describes unauthorized charges posted to the consumer's checking or savings account, which is an unauthorized electronic fund transfer. The product is a checking or savings account, not a credit card, so 1026.13 does not apply."
+    },
+    "retrieved": [
+      {
+        "section": "1026.13",
+        "score": 361.48292280454604,
+        "paragraph": "(7) The creditor's failure to mail or deliver a periodic statement to the consumer's last known address if that address was received by the creditor, in writing, at least 20 days before the end of the billing cycle for which the statement was required."
+      },
+      {
+        "section": "1005.11",
+        "score": 356.13665533029706,
+        "paragraph": "(i) The applicable time is 20 business days in place of 10 business days under paragraphs (c)(1) and (2) of this section if the notice of error involves an electronic fund transfer to or from the account within 30 days after the first deposit to the account was made."
+      }
+    ],
+    "valid": true,
+    "validation": "verbatim quote matched fetched eCFR text",
+    "latency_ms": 9622.35,
+    "model": "Claude Haiku 5.5 via Claude Code",
+    "recorded_date": "2026-10-12"
+  },
+  {
+    "id": "2892873",
+    "answer": {
+      "section": "none",
+      "quote": "",
+      "reason": "Checking-account transfers the consumer made to a seller who turned out to be a scammer were authorized, so they are not unauthorized or incorrect EFTs under 1005.11(a)(1)(i)-(ii). No credit card is involved, so 1026.13 does not apply."
+    },
+    "retrieved": [
+      {
+        "section": "1005.11",
+        "score": 12.311694159650823,
+        "paragraph": "(i) A routine inquiry about the consumer's account balance;"
+      },
+      {
+        "section": "1026.13",
+        "score": 9.235639617553252,
+        "paragraph": "(2) Adverse credit reports prohibited. The creditor or its agent shall not (directly or indirectly) make or threaten to make an adverse report to any person about the consumer's credit standing, or report that an amount or account is delinquent, because the consumer failed to pay the disputed amount or related finance or other charges."
+      }
+    ],
+    "valid": true,
+    "validation": "refusal has no quote",
+    "latency_ms": 8263.29,
+    "model": "Claude Haiku 5.5 via Claude Code",
+    "recorded_date": "2026-10-12"
+  },
+  {
+    "id": "2892742",
+    "answer": {
+      "section": "none",
+      "quote": "",
+      "reason": "The complaint is about a checking account being closed and a promised bonus not being paid. It does not clearly describe an unauthorized, incorrect, or omitted electronic fund transfer or an account error under 1005.11. The transfer mentioned was reversed, but the complaint does not frame that as an EFT error. It is not a credit card billing error, so 1026.13 does not apply."
+    },
+    "retrieved": [
+      {
+        "section": "1005.11",
+        "score": 65.91921754476898,
+        "paragraph": "(ii) Notify the consumer that the institution will honor checks, drafts, or similar instruments payable to third parties and preauthorized transfers from the consumer's account (without charge to the consumer as a result of an overdraft) for five business days after the notification. The institution shall honor items as specified in the notice, but need honor only items that it would have paid if the provisionally credited funds had not been debited."
+      },
+      {
+        "section": "1026.13",
+        "score": 50.09114649205789,
+        "paragraph": "(1) A reflection on or with a periodic statement of an extension of credit that is not made to the consumer or to a person who has actual, implied, or apparent authority to use the consumer's credit card or open-end credit plan."
+      }
+    ],
+    "valid": true,
+    "validation": "refusal has no quote",
+    "latency_ms": 6841.91,
+    "model": "Claude Haiku 5.5 via Claude Code",
+    "recorded_date": "2026-10-12"
+  },
+  {
+    "id": "2892957",
+    "answer": {
+      "section": "1026.13",
+      "quote": "A reflection on or with a periodic statement of an extension of credit that is not made to the consumer or to a person who has actual, implied, or apparent authority to use the consumer's credit card or open-end credit plan.",
+      "reason": "Unauthorized charges on a credit account the consumer says they did not make, with interest accruing on them. Not an electronic fund transfer from an asset account, so 1005.11 does not apply."
+    },
+    "retrieved": [
+      {
+        "section": "1026.13",
+        "score": 73.46762568939202,
+        "paragraph": "(4) Permitted creditor actions. A creditor is not prohibited from taking action to collect any undisputed portion of the item or bill; from deducting any disputed amount and related finance or other charges from the consumer's credit limit on the account; or from reflecting a disputed amount and related finance or other charges on a periodic statement, provided that the creditor indicates on or with the periodic statement that payment of any disputed amount and related finance or other charges is not required pending the creditor's compliance with this section."
+      },
+      {
+        "section": "1005.11",
+        "score": 60.57936697414264,
+        "paragraph": "(1) Written explanation. The institution's report of the results of its investigation shall include a written explanation of the institution's findings and shall note the consumer's right to request the documents that the institution relied on in making its determination. Upon request, the institution shall promptly provide copies of the documents."
+      }
+    ],
+    "valid": true,
+    "validation": "verbatim quote matched fetched eCFR text",
+    "latency_ms": 11310.79,
+    "model": "Claude Haiku 5.5 via Claude Code",
+    "recorded_date": "2026-10-12"
+  },
+  {
+    "id": "2892987",
+    "answer": {
+      "section": "1005.11",
+      "quote": "(i) An unauthorized electronic fund transfer;",
+      "reason": "The complaint says a fee was debited electronically from the consumer's checking account after a returned check, and the consumer says they did not authorize that debit. That matches the unauthorized electronic fund transfer error type."
+    },
+    "retrieved": [
+      {
+        "section": "1005.11",
+        "score": 79.89150863359595,
+        "paragraph": "(ii) Notify the consumer that the institution will honor checks, drafts, or similar instruments payable to third parties and preauthorized transfers from the consumer's account (without charge to the consumer as a result of an overdraft) for five business days after the notification. The institution shall honor items as specified in the notice, but need honor only items that it would have paid if the provisionally credited funds had not been debited."
+      },
+      {
+        "section": "1026.13",
+        "score": 68.6344577092319,
+        "paragraph": "(3) A reflection on or with a periodic statement of an extension of credit for property or services not accepted by the consumer or the consumer's designee, or not delivered to the consumer or the consumer's designee as agreed."
+      }
+    ],
+    "valid": true,
+    "validation": "verbatim quote matched fetched eCFR text",
+    "latency_ms": 9422.22,
+    "model": "Claude Haiku 5.5 via Claude Code",
+    "recorded_date": "2026-10-12"
+  },
+  {
+    "id": "2893107",
+    "answer": {
+      "section": "none",
+      "quote": "",
+      "reason": "The complaint is about a bank closing checking and savings accounts and withholding balances. It does not describe an unauthorized, incorrect, or omitted electronic fund transfer, or an ATM or account computational error, so 1005.11 does not clearly apply. It involves no credit card, so 1026.13 does not apply."
+    },
+    "retrieved": [
+      {
+        "section": "1005.11",
+        "score": 63.07641529228538,
+        "paragraph": "(ii) Notify the consumer that the institution will honor checks, drafts, or similar instruments payable to third parties and preauthorized transfers from the consumer's account (without charge to the consumer as a result of an overdraft) for five business days after the notification. The institution shall honor items as specified in the notice, but need honor only items that it would have paid if the provisionally credited funds had not been debited."
+      },
+      {
+        "section": "1026.13",
+        "score": 53.52518846663868,
+        "paragraph": "(i) Promptly reports that the amount or account is in dispute;"
+      }
+    ],
+    "valid": true,
+    "validation": "refusal has no quote",
+    "latency_ms": 6505.25,
+    "model": "Claude Haiku 5.5 via Claude Code",
+    "recorded_date": "2026-10-12"
+  },
+  {
+    "id": "2893173",
+    "answer": {
+      "section": "1005.11",
+      "quote": "(i) An unauthorized electronic fund transfer;",
+      "reason": "The consumer says $300 was sent from their Bank of America account through a payment service without their authorization, after their phone was taken and a login code was used. That is an unauthorized electronic fund transfer. The bank's later denial reason (\"consistent logins\") does not change how the transfer is classified."
+    },
+    "retrieved": [
+      {
+        "section": "1005.11",
+        "score": 238.46146261100364,
+        "paragraph": "(i) The applicable time is 20 business days in place of 10 business days under paragraphs (c)(1) and (2) of this section if the notice of error involves an electronic fund transfer to or from the account within 30 days after the first deposit to the account was made."
+      },
+      {
+        "section": "1026.13",
+        "score": 235.1331625628176,
+        "paragraph": "(7) The creditor's failure to mail or deliver a periodic statement to the consumer's last known address if that address was received by the creditor, in writing, at least 20 days before the end of the billing cycle for which the statement was required."
+      }
+    ],
+    "valid": true,
+    "validation": "verbatim quote matched fetched eCFR text",
+    "latency_ms": 8514.96,
+    "model": "Claude Haiku 5.5 via Claude Code",
+    "recorded_date": "2026-10-12"
+  },
+  {
+    "id": "2893904",
+    "answer": {
+      "section": "none",
+      "quote": "",
+      "reason": "The complaint concerns fee disclosure for regional ATM fees on a checking account and a request for refunds. It does not describe an unauthorized or incorrect electronic fund transfer, an omitted transfer, a computational error, or an incorrect terminal payout, so 1005.11 does not apply. 1026.13 covers credit card billing errors only, and this is not a credit card account."
+    },
+    "retrieved": [
+      {
+        "section": "1026.13",
+        "score": 9.644586531807146,
+        "paragraph": "(g) Creditor's rights and duties after resolution. If a creditor, after complying with all of the requirements of this section, determines that a consumer owes all or part of the disputed amount and related finance or other charges, the creditor:"
+      },
+      {
+        "section": "1005.11",
+        "score": 5.146549003811283,
+        "paragraph": "(i) A routine inquiry about the consumer's account balance;"
+      }
+    ],
+    "valid": true,
+    "validation": "refusal has no quote",
+    "latency_ms": 7285.12,
+    "model": "Claude Haiku 5.5 via Claude Code",
+    "recorded_date": "2026-10-12"
+  },
+  {
+    "id": "2893864",
+    "answer": {
+      "section": "none",
+      "quote": "",
+      "reason": "The complaint is about a deposited check that the bank later reversed, plus money the consumer sent to a third party by money transfer. It does not describe an electronic fund transfer error, and no credit card is involved."
+    },
+    "retrieved": [
+      {
+        "section": "1005.11",
+        "score": 181.9882535342494,
+        "paragraph": "(i) The applicable time is 20 business days in place of 10 business days under paragraphs (c)(1) and (2) of this section if the notice of error involves an electronic fund transfer to or from the account within 30 days after the first deposit to the account was made."
+      },
+      {
+        "section": "1026.13",
+        "score": 163.6651892816189,
+        "paragraph": "(i) Promptly reports that the amount or account is in dispute;"
+      }
+    ],
+    "valid": true,
+    "validation": "refusal has no quote",
+    "latency_ms": 11317.34,
+    "model": "Claude Haiku 5.5 via Claude Code",
+    "recorded_date": "2026-10-12"
+  },
+  {
+    "id": "2893920",
+    "answer": {
+      "section": "none",
+      "quote": "",
+      "reason": "The complaint describes a failed account login and a failed attempt to open an account, plus unanswered customer support cases. It does not describe an incorrect, unauthorized, or omitted electronic fund transfer, and it does not describe a credit card billing error."
+    },
+    "retrieved": [
+      {
+        "section": "1005.11",
+        "score": 74.52392631044076,
+        "paragraph": "(i) A routine inquiry about the consumer's account balance;"
+      },
+      {
+        "section": "1026.13",
+        "score": 59.22368458624259,
+        "paragraph": "(2) With regard to a covered separate credit feature and an asset feature of a prepaid account where both are accessible by a hybrid prepaid-credit card as defined in § 1026.61, an extension of credit that is incident to an electronic fund transfer occurs when the hybrid prepaid-credit card accesses both funds in the asset feature of the prepaid account and a credit extension from the credit feature with respect to a particular transaction."
+      }
+    ],
+    "valid": true,
+    "validation": "refusal has no quote",
+    "latency_ms": 6661.34,
+    "model": "Claude Haiku 5.5 via Claude Code",
+    "recorded_date": "2026-10-12"
+  },
+  {
+    "id": "2893959",
+    "answer": {
+      "section": "none",
+      "quote": "",
+      "reason": "The complaint describes a wire the consumer requested from a bank account, with funds not received by the escrow agent. It does not clearly describe an electronic fund transfer error under 1005.11, since the consumer requested the transfer and no unauthorized, incorrect, omitted, or computational transfer error is alleged. It describes no credit card or open-end credit billing error under 1026.13."
+    },
+    "retrieved": [
+      {
+        "section": "1005.11",
+        "score": 47.108476773971475,
+        "paragraph": "(ii) Notify the consumer that the institution will honor checks, drafts, or similar instruments payable to third parties and preauthorized transfers from the consumer's account (without charge to the consumer as a result of an overdraft) for five business days after the notification. The institution shall honor items as specified in the notice, but need honor only items that it would have paid if the provisionally credited funds had not been debited."
+      },
+      {
+        "section": "1026.13",
+        "score": 40.119464314854504,
+        "paragraph": "(7) The creditor's failure to mail or deliver a periodic statement to the consumer's last known address if that address was received by the creditor, in writing, at least 20 days before the end of the billing cycle for which the statement was required."
+      }
+    ],
+    "valid": true,
+    "validation": "refusal has no quote",
+    "latency_ms": 9795.56,
+    "model": "Claude Haiku 5.5 via Claude Code",
+    "recorded_date": "2026-10-12"
+  },
+  {
+    "id": "2893969",
+    "answer": {
+      "section": "none",
+      "quote": "",
+      "reason": "The complaint describes the bank closing and freezing a checking account without notice. It does not describe an unauthorized or incorrect electronic fund transfer, an EFT omitted from a statement, or a credit card billing error, so neither candidate section applies."
+    },
+    "retrieved": [
+      {
+        "section": "1005.11",
+        "score": 44.684740922195935,
+        "paragraph": "(i) The applicable time is 20 business days in place of 10 business days under paragraphs (c)(1) and (2) of this section if the notice of error involves an electronic fund transfer to or from the account within 30 days after the first deposit to the account was made."
+      },
+      {
+        "section": "1026.13",
+        "score": 40.20421009216092,
+        "paragraph": "(i) Promptly reports that the amount or account is in dispute;"
+      }
+    ],
+    "valid": true,
+    "validation": "refusal has no quote",
+    "latency_ms": 6551.33,
+    "model": "Claude Haiku 5.5 via Claude Code",
+    "recorded_date": "2026-10-12"
+  },
+  {
+    "id": "2894023",
+    "answer": {
+      "section": "none",
+      "quote": "",
+      "reason": "The complaint describes lost account access and promised funds that never arrived in a new account. It does not clearly describe an unauthorized, incorrect, omitted, or unidentified electronic fund transfer under 1005.11, and it involves no credit card billing error under 1026.13."
+    },
+    "retrieved": [
+      {
+        "section": "1005.11",
+        "score": 30.59975959369143,
+        "paragraph": "(i) A routine inquiry about the consumer's account balance;"
+      },
+      {
+        "section": "1026.13",
+        "score": 30.24152828053679,
+        "paragraph": "(i) Promptly reports that the amount or account is in dispute;"
+      }
+    ],
+    "valid": true,
+    "validation": "refusal has no quote",
+    "latency_ms": 7262.9,
+    "model": "Claude Haiku 5.5 via Claude Code",
+    "recorded_date": "2026-10-12"
+  },
+  {
+    "id": "2894025",
+    "answer": {
+      "section": "none",
+      "quote": "",
+      "reason": "The complaint describes an in-branch teller cash withdrawal and a refusal to release deposited funds, not an electronic fund transfer error or a credit card billing error."
+    },
+    "retrieved": [
+      {
+        "section": "1026.13",
+        "score": 131.14943594283633,
+        "paragraph": "(7) The creditor's failure to mail or deliver a periodic statement to the consumer's last known address if that address was received by the creditor, in writing, at least 20 days before the end of the billing cycle for which the statement was required."
+      },
+      {
+        "section": "1005.11",
+        "score": 130.91303653996982,
+        "paragraph": "(ii) Notify the consumer that the institution will honor checks, drafts, or similar instruments payable to third parties and preauthorized transfers from the consumer's account (without charge to the consumer as a result of an overdraft) for five business days after the notification. The institution shall honor items as specified in the notice, but need honor only items that it would have paid if the provisionally credited funds had not been debited."
+      }
+    ],
+    "valid": true,
+    "validation": "refusal has no quote",
+    "latency_ms": 6396.17,
+    "model": "Claude Haiku 5.5 via Claude Code",
+    "recorded_date": "2026-10-12"
+  },
+  {
+    "id": "2894926",
+    "answer": {
+      "section": "1005.11",
+      "quote": "(i) An unauthorized electronic fund transfer;",
+      "reason": "The complaint describes two debit-card charges on a checking account, both from the same merchant and both unauthorized, the second after the card was reported and the account was supposed to be protected. That is an unauthorized electronic fund transfer under 1005.11(a)(1)(i)."
+    },
+    "retrieved": [
+      {
+        "section": "1005.11",
+        "score": 75.62692760403596,
+        "paragraph": "(ii) Notify the consumer that the institution will honor checks, drafts, or similar instruments payable to third parties and preauthorized transfers from the consumer's account (without charge to the consumer as a result of an overdraft) for five business days after the notification. The institution shall honor items as specified in the notice, but need honor only items that it would have paid if the provisionally credited funds had not been debited."
+      },
+      {
+        "section": "1026.13",
+        "score": 51.95005655995981,
+        "paragraph": "(2) With regard to a covered separate credit feature and an asset feature of a prepaid account where both are accessible by a hybrid prepaid-credit card as defined in § 1026.61, an extension of credit that is incident to an electronic fund transfer occurs when the hybrid prepaid-credit card accesses both funds in the asset feature of the prepaid account and a credit extension from the credit feature with respect to a particular transaction."
+      }
+    ],
+    "valid": true,
+    "validation": "verbatim quote matched fetched eCFR text",
+    "latency_ms": 8645.17,
+    "model": "Claude Haiku 5.5 via Claude Code",
+    "recorded_date": "2026-10-12"
+  },
+  {
+    "id": "2894056",
+    "answer": {
+      "section": "none",
+      "quote": "",
+      "reason": "The complaint describes a wire transfer that a branch executed from a paper FTRA form to a fraudulent investment. It does not clearly describe an electronic fund transfer error as 1005.11 defines it (unauthorized EFT, incorrect EFT on the account, statement omission, or terminal error), and it is not a credit card billing error under 1026.13."
+    },
+    "retrieved": [
+      {
+        "section": "1005.11",
+        "score": 502.2981537448057,
+        "paragraph": "(3) Request for documentation or clarifications. When a notice of error is based on documentation or clarification that the consumer requested under paragraph (a)(1)(vii) of this section, the consumer's notice of error is timely if received by the financial institution no later than 60 days after the institution sends the information requested."
+      },
+      {
+        "section": "1026.13",
+        "score": 466.3398685168597,
+        "paragraph": "(2) With regard to a covered separate credit feature and an asset feature of a prepaid account where both are accessible by a hybrid prepaid-credit card as defined in § 1026.61, an extension of credit that is incident to an electronic fund transfer occurs when the hybrid prepaid-credit card accesses both funds in the asset feature of the prepaid account and a credit extension from the credit feature with respect to a particular transaction."
+      }
+    ],
+    "valid": true,
+    "validation": "refusal has no quote",
+    "latency_ms": 9088.4,
+    "model": "Claude Haiku 5.5 via Claude Code",
+    "recorded_date": "2026-10-12"
+  },
+  {
+    "id": "2894070",
+    "answer": {
+      "section": "1005.11",
+      "quote": "(i) An unauthorized electronic fund transfer;",
+      "reason": "Checking account debits (\"drafts\" of $270 and $230) by the lender after the consumer revoked authorization fit an unauthorized EFT. The $500 check is paper, so it is not the basis. The loan is not a credit card, so 1026.13 does not apply."
+    },
+    "retrieved": [
+      {
+        "section": "1005.11",
+        "score": 105.62602006693488,
+        "paragraph": "(i) A routine inquiry about the consumer's account balance;"
+      },
+      {
+        "section": "1026.13",
+        "score": 104.63963875419157,
+        "paragraph": "(i) Promptly reports that the amount or account is in dispute;"
+      }
+    ],
+    "valid": true,
+    "validation": "verbatim quote matched fetched eCFR text",
+    "latency_ms": 12990.49,
+    "model": "Claude Haiku 5.5 via Claude Code",
+    "recorded_date": "2026-10-12"
+  },
+  {
+    "id": "2894087",
+    "answer": {
+      "section": "none",
+      "quote": "",
+      "reason": "The complaint describes a delay in releasing wire-transfer funds, not an unauthorized, incorrect, or bookkeeping-error EFT under 1005.11, and not a periodic-statement billing error under 1026.13. The wire was sent to the wrong account by the consumer's own mistake, and no candidate paragraph clearly covers a funds-availability delay."
+    },
+    "retrieved": [
+      {
+        "section": "1005.11",
+        "score": 78.38105517438403,
+        "paragraph": "(ii) Notify the consumer that the institution will honor checks, drafts, or similar instruments payable to third parties and preauthorized transfers from the consumer's account (without charge to the consumer as a result of an overdraft) for five business days after the notification. The institution shall honor items as specified in the notice, but need honor only items that it would have paid if the provisionally credited funds had not been debited."
+      },
+      {
+        "section": "1026.13",
+        "score": 69.64898174887298,
+        "paragraph": "(7) The creditor's failure to mail or deliver a periodic statement to the consumer's last known address if that address was received by the creditor, in writing, at least 20 days before the end of the billing cycle for which the statement was required."
+      }
+    ],
+    "valid": true,
+    "validation": "refusal has no quote",
+    "latency_ms": 8189.16,
+    "model": "Claude Haiku 5.5 via Claude Code",
+    "recorded_date": "2026-10-12"
+  },
+  {
+    "id": "2892152",
+    "answer": {
+      "section": "none",
+      "quote": "",
+      "reason": "The complaint objects to the bank's firearms-related business policy and speculates about future fee or rate increases. It does not describe a specific credit card billing error on a periodic statement, such as an unauthorized charge, a wrong amount, or an uncredited payment, and it is not an electronic fund transfer error."
+    },
+    "retrieved": [
+      {
+        "section": "1026.13",
+        "score": 134.0996368034942,
+        "paragraph": "(3) Acceleration of debt and restriction of account prohibited. A creditor shall not accelerate any part of the consumer's indebtedness or restrict or close a consumer's account solely because the consumer has exercised in good faith rights provided by this section. A creditor may be subject to the forfeiture penalty under 15 U.S.C. 1666(e) for failure to comply with any of the requirements of this section."
+      },
+      {
+        "section": "1005.11",
+        "score": 116.74398618584405,
+        "paragraph": "(e) Reassertion of error. A financial institution that has fully complied with the error resolution requirements has no further responsibilities under this section should the consumer later reassert the same error, except in the case of an error asserted by the consumer following receipt of information provided under paragraph (a)(1)(vii) of this section."
+      }
+    ],
+    "valid": true,
+    "validation": "refusal has no quote",
+    "latency_ms": 6424.05,
+    "model": "Claude Haiku 5.5 via Claude Code",
+    "recorded_date": "2026-10-12"
+  },
+  {
+    "id": "2892171",
+    "answer": {
+      "section": "1005.11",
+      "quote": "(ii) An incorrect electronic fund transfer to or from the consumer's account;",
+      "reason": "Prepaid card account. The consumer disputes monthly fee debits from the account as incorrect, which fits an incorrect electronic fund transfer to or from the account. The card is prepaid, not credit, so 1026.13 does not apply."
+    },
+    "retrieved": [
+      {
+        "section": "1026.13",
+        "score": 37.51905455709765,
+        "paragraph": "(2) With regard to a covered separate credit feature and an asset feature of a prepaid account where both are accessible by a hybrid prepaid-credit card as defined in § 1026.61, an extension of credit that is incident to an electronic fund transfer occurs when the hybrid prepaid-credit card accesses both funds in the asset feature of the prepaid account and a credit extension from the credit feature with respect to a particular transaction."
+      },
+      {
+        "section": "1005.11",
+        "score": 35.66315605620971,
+        "paragraph": "(ii) Notify the consumer that the institution will honor checks, drafts, or similar instruments payable to third parties and preauthorized transfers from the consumer's account (without charge to the consumer as a result of an overdraft) for five business days after the notification. The institution shall honor items as specified in the notice, but need honor only items that it would have paid if the provisionally credited funds had not been debited."
+      }
+    ],
+    "valid": true,
+    "validation": "verbatim quote matched fetched eCFR text",
+    "latency_ms": 12010.64,
+    "model": "Claude Haiku 5.5 via Claude Code",
+    "recorded_date": "2026-10-12"
+  },
+  {
+    "id": "2892278",
+    "answer": {
+      "section": "none",
+      "quote": "",
+      "reason": "Complaint is about a rewards promotion awarded as the wrong miles type and slow resolution. It does not describe a periodic-statement billing error (unauthorized use, unposted payment, goods not delivered, computational error, or unmailed statement), so 1026.13 is not clearly met. Not an electronic fund transfer either, so 1005.11 does not apply."
+    },
+    "retrieved": [
+      {
+        "section": "1005.11",
+        "score": 35.359721319409964,
+        "paragraph": "(i) The applicable time is 20 business days in place of 10 business days under paragraphs (c)(1) and (2) of this section if the notice of error involves an electronic fund transfer to or from the account within 30 days after the first deposit to the account was made."
+      },
+      {
+        "section": "1026.13",
+        "score": 34.647744280574315,
+        "paragraph": "(7) The creditor's failure to mail or deliver a periodic statement to the consumer's last known address if that address was received by the creditor, in writing, at least 20 days before the end of the billing cycle for which the statement was required."
+      }
+    ],
+    "valid": true,
+    "validation": "refusal has no quote",
+    "latency_ms": 8546.85,
+    "model": "Claude Haiku 5.5 via Claude Code",
+    "recorded_date": "2026-10-12"
+  },
+  {
+    "id": "2892302",
+    "answer": {
+      "section": "none",
+      "quote": "",
+      "reason": "The complaint disputes airline change fees, fare differences, and misleading policy statements. It does not say a credit card statement shows an incorrect or unauthorized charge, so it is not a 1026.13(a) billing error. It also does not describe an electronic fund transfer or account error under 1005.11."
+    },
+    "retrieved": [
+      {
+        "section": "1005.11",
+        "score": 97.06031235921235,
+        "paragraph": "(ii) Notify the consumer that the institution will honor checks, drafts, or similar instruments payable to third parties and preauthorized transfers from the consumer's account (without charge to the consumer as a result of an overdraft) for five business days after the notification. The institution shall honor items as specified in the notice, but need honor only items that it would have paid if the provisionally credited funds had not been debited."
+      },
+      {
+        "section": "1026.13",
+        "score": 95.38933520997084,
+        "paragraph": "(3) Acceleration of debt and restriction of account prohibited. A creditor shall not accelerate any part of the consumer's indebtedness or restrict or close a consumer's account solely because the consumer has exercised in good faith rights provided by this section. A creditor may be subject to the forfeiture penalty under 15 U.S.C. 1666(e) for failure to comply with any of the requirements of this section."
+      }
+    ],
+    "valid": true,
+    "validation": "refusal has no quote",
+    "latency_ms": 8290.64,
+    "model": "Claude Haiku 5.5 via Claude Code",
+    "recorded_date": "2026-10-12"
+  },
+  {
+    "id": "2892301",
+    "answer": {
+      "section": "none",
+      "quote": "",
+      "reason": "The complaint is about unsolicited preapproved credit card marketing letters sent to a deceased person. It does not describe a billing error reflected on a periodic statement (1026.13) or an electronic fund transfer error (1005.11)."
+    },
+    "retrieved": [
+      {
+        "section": "1005.11",
+        "score": 28.05260307513537,
+        "paragraph": "(ii) Notify the consumer that the institution will honor checks, drafts, or similar instruments payable to third parties and preauthorized transfers from the consumer's account (without charge to the consumer as a result of an overdraft) for five business days after the notification. The institution shall honor items as specified in the notice, but need honor only items that it would have paid if the provisionally credited funds had not been debited."
+      },
+      {
+        "section": "1026.13",
+        "score": 25.474188086703382,
+        "paragraph": "(1) A reflection on or with a periodic statement of an extension of credit that is not made to the consumer or to a person who has actual, implied, or apparent authority to use the consumer's credit card or open-end credit plan."
+      }
+    ],
+    "valid": true,
+    "validation": "refusal has no quote",
+    "latency_ms": 5990.78,
+    "model": "Claude Haiku 5.5 via Claude Code",
+    "recorded_date": "2026-10-12"
+  },
+  {
+    "id": "2893293",
+    "answer": {
+      "section": "none",
+      "quote": "",
+      "reason": "The complaint is about a change to a promotional benefit (an anniversary night offer) and the issuer's terms, not a billing error on a periodic statement. It does not describe an extension of credit that was wrongly reflected, a payment not credited, a computational error, or a missing statement, so 1026.13 does not clearly apply. It is not an electronic fund transfer or account error, so 1005.11 does not apply either."
+    },
+    "retrieved": [
+      {
+        "section": "1026.13",
+        "score": 76.7851892783396,
+        "paragraph": "(7) The creditor's failure to mail or deliver a periodic statement to the consumer's last known address if that address was received by the creditor, in writing, at least 20 days before the end of the billing cycle for which the statement was required."
+      },
+      {
+        "section": "1005.11",
+        "score": 75.30249604074187,
+        "paragraph": "(ii) Notify the consumer that the institution will honor checks, drafts, or similar instruments payable to third parties and preauthorized transfers from the consumer's account (without charge to the consumer as a result of an overdraft) for five business days after the notification. The institution shall honor items as specified in the notice, but need honor only items that it would have paid if the provisionally credited funds had not been debited."
+      }
+    ],
+    "valid": true,
+    "validation": "refusal has no quote",
+    "latency_ms": 6108.48,
+    "model": "Claude Haiku 5.5 via Claude Code",
+    "recorded_date": "2026-10-12"
+  },
+  {
+    "id": "2893333",
+    "answer": {
+      "section": "none",
+      "quote": "",
+      "reason": "Complaint concerns a promotional offer (bonus miles vs. fee waiver) changed during the application process. It does not describe a reflection on a periodic statement of an extension of credit, so no 1026.13(a) billing error category applies. It is not an electronic fund transfer or account error, so 1005.11 does not apply."
+    },
+    "retrieved": [
+      {
+        "section": "1005.11",
+        "score": 123.24687820692677,
+        "paragraph": "(ii) Notify the consumer that the institution will honor checks, drafts, or similar instruments payable to third parties and preauthorized transfers from the consumer's account (without charge to the consumer as a result of an overdraft) for five business days after the notification. The institution shall honor items as specified in the notice, but need honor only items that it would have paid if the provisionally credited funds had not been debited."
+      },
+      {
+        "section": "1026.13",
+        "score": 106.68833547359819,
+        "paragraph": "(7) The creditor's failure to mail or deliver a periodic statement to the consumer's last known address if that address was received by the creditor, in writing, at least 20 days before the end of the billing cycle for which the statement was required."
+      }
+    ],
+    "valid": true,
+    "validation": "refusal has no quote",
+    "latency_ms": 6519.01,
+    "model": "Claude Haiku 5.5 via Claude Code",
+    "recorded_date": "2026-10-12"
+  },
+  {
+    "id": "2893338",
+    "answer": {
+      "section": "1026.13",
+      "quote": "A reflection on or with a periodic statement of an extension of credit for property or services not accepted by the consumer or the consumer's designee, or not delivered to the consumer or the consumer's designee as agreed.",
+      "reason": "Credit card charge for round-trip tickets whose return leg was cancelled, so the service was not delivered as agreed. This matches (a)(3). The complaint is not an electronic fund transfer, so 1005.11 does not apply."
+    },
+    "retrieved": [
+      {
+        "section": "1005.11",
+        "score": 35.35656214889601,
+        "paragraph": "(ii) Informs the consumer, within two business days after the provisional crediting, of the amount and date of the provisional crediting and gives the consumer full use of the funds during the investigation;"
+      },
+      {
+        "section": "1026.13",
+        "score": 32.25130155207331,
+        "paragraph": "(i) Promptly reports that the amount or account is in dispute;"
+      }
+    ],
+    "valid": true,
+    "validation": "verbatim quote matched fetched eCFR text",
+    "latency_ms": 10084.45,
+    "model": "Claude Haiku 5.5 via Claude Code",
+    "recorded_date": "2026-10-12"
+  },
+  {
+    "id": "2893343",
+    "answer": {
+      "section": "1026.13",
+      "quote": "(3) A reflection on or with a periodic statement of an extension of credit for property or services not accepted by the consumer or the consumer's designee, or not delivered to the consumer or the consumer's designee as agreed.",
+      "reason": "The complaint describes credit card charges for account balance protection that the consumer says they did not accept and had asked to stop, billed monthly on the card. That fits a billing error for a service not accepted by the consumer. 1005.11 does not apply because the complaint concerns a credit card, not an electronic fund transfer account error."
+    },
+    "retrieved": [
+      {
+        "section": "1005.11",
+        "score": 50.85017486207944,
+        "paragraph": "(i) A routine inquiry about the consumer's account balance;"
+      },
+      {
+        "section": "1026.13",
+        "score": 46.340492806814716,
+        "paragraph": "(i) Promptly reports that the amount or account is in dispute;"
+      }
+    ],
+    "valid": true,
+    "validation": "verbatim quote matched fetched eCFR text",
+    "latency_ms": 12926.3,
+    "model": "Claude Haiku 5.5 via Claude Code",
+    "recorded_date": "2026-10-12"
+  },
+  {
+    "id": "2893353",
+    "answer": {
+      "section": "none",
+      "quote": "",
+      "reason": "The complaint concerns a credit card application: duplicate denial letters, and an account reportedly closed before the card arrived. It does not describe a billing error reflected on a periodic statement under 1026.13(a), and it does not describe an electronic fund transfer or account error under 1005.11(a)."
+    },
+    "retrieved": [
+      {
+        "section": "1005.11",
+        "score": 81.12954816197674,
+        "paragraph": "(i) The applicable time is 20 business days in place of 10 business days under paragraphs (c)(1) and (2) of this section if the notice of error involves an electronic fund transfer to or from the account within 30 days after the first deposit to the account was made."
+      },
+      {
+        "section": "1026.13",
+        "score": 75.14966337196013,
+        "paragraph": "(7) The creditor's failure to mail or deliver a periodic statement to the consumer's last known address if that address was received by the creditor, in writing, at least 20 days before the end of the billing cycle for which the statement was required."
+      }
+    ],
+    "valid": true,
+    "validation": "refusal has no quote",
+    "latency_ms": 6053.86,
+    "model": "Claude Haiku 5.5 via Claude Code",
+    "recorded_date": "2026-10-12"
+  },
+  {
+    "id": "2893377",
+    "answer": {
+      "section": "none",
+      "quote": "",
+      "reason": "The complaint is about a gift card whose funds were depleted for inactivity before the stated expiration date. It does not describe an unauthorized, incorrect, omitted, or computational electronic fund transfer error under 1005.11, nor a credit card billing error under 1026.13."
+    },
+    "retrieved": [
+      {
+        "section": "1005.11",
+        "score": 30.843783759637095,
+        "paragraph": "(ii) Notify the consumer that the institution will honor checks, drafts, or similar instruments payable to third parties and preauthorized transfers from the consumer's account (without charge to the consumer as a result of an overdraft) for five business days after the notification. The institution shall honor items as specified in the notice, but need honor only items that it would have paid if the provisionally credited funds had not been debited."
+      },
+      {
+        "section": "1026.13",
+        "score": 27.76523696387126,
+        "paragraph": "(1) Consumer's right to withhold disputed amount; collection action prohibited. The consumer need not pay (and the creditor may not try to collect) any portion of any required payment that the consumer believes is related to the disputed amount (including related finance or other charges). If the cardholder has enrolled in an automatic payment plan offered by the card issuer and has agreed to pay the credit card indebtedness by periodic deductions from the cardholder's deposit account, the card issuer shall not deduct any part of the disputed amount or related finance or other charges if a billing error notice is received any time up to 3 business days before the scheduled payment date."
+      }
+    ],
+    "valid": true,
+    "validation": "refusal has no quote",
+    "latency_ms": 7123.02,
+    "model": "Claude Haiku 5.5 via Claude Code",
+    "recorded_date": "2026-10-12"
+  },
+  {
+    "id": "2893383",
+    "answer": {
+      "section": "none",
+      "quote": "",
+      "reason": "Complaint describes credit limit cuts after periodic credit checks, not a billing error on a periodic statement. Neither 1026.13(a) nor 1005.11 covers it, and it does not involve an electronic fund transfer."
+    },
+    "retrieved": [
+      {
+        "section": "1026.13",
+        "score": 32.044155142505424,
+        "paragraph": "(1) A reflection on or with a periodic statement of an extension of credit that is not made to the consumer or to a person who has actual, implied, or apparent authority to use the consumer's credit card or open-end credit plan."
+      },
+      {
+        "section": "1005.11",
+        "score": 31.284331321157065,
+        "paragraph": "(i) Provisionally credits the consumer's account in the amount of the alleged error (including interest where applicable) within 10 business days of receiving the error notice. If the financial institution has a reasonable basis for believing that an unauthorized electronic fund transfer has occurred and the institution has satisfied the requirements of § 1005.6(a), the institution may withhold a maximum of $50 from the amount credited. An institution need not provisionally credit the consumer's account if:"
+      }
+    ],
+    "valid": true,
+    "validation": "refusal has no quote",
+    "latency_ms": 6167.31,
+    "model": "Claude Haiku 5.5 via Claude Code",
+    "recorded_date": "2026-10-12"
+  },
+  {
+    "id": "2893435",
+    "answer": {
+      "section": "none",
+      "quote": "",
+      "reason": "The complaint is about a late payment appearing on a credit report, and the consumer believes the payment was made. It does not clearly describe a periodic statement reflecting a failure to credit a payment (1026.13(a)(4)) or a failure to mail a statement (1026.13(a)(7)). The statement-not-received point is only speculation. It is not an EFT, so 1005.11 does not apply."
+    },
+    "retrieved": [
+      {
+        "section": "1005.11",
+        "score": 23.6809681411882,
+        "paragraph": "(i) Is received by the institution no later than 60 days after the institution sends the periodic statement or provides the passbook documentation, required by § 1005.9, on which the alleged error is first reflected;"
+      },
+      {
+        "section": "1026.13",
+        "score": 17.55309846585679,
+        "paragraph": "(i) Promptly reports that the amount or account is in dispute;"
+      }
+    ],
+    "valid": true,
+    "validation": "refusal has no quote",
+    "latency_ms": 7980.72,
+    "model": "Claude Haiku 5.5 via Claude Code",
+    "recorded_date": "2026-10-12"
+  },
+  {
+    "id": "2893436",
+    "answer": {
+      "section": "none",
+      "quote": "",
+      "reason": "The complaint disputes whether a promotional 0% interest offer applies to the account. That is a dispute over account terms, not a billing error in any category listed in 1026.13(a). It does not involve an electronic fund transfer, so 1005.11 does not apply."
+    },
+    "retrieved": [
+      {
+        "section": "1005.11",
+        "score": 50.73263645291541,
+        "paragraph": "(i) Provisionally credits the consumer's account in the amount of the alleged error (including interest where applicable) within 10 business days of receiving the error notice. If the financial institution has a reasonable basis for believing that an unauthorized electronic fund transfer has occurred and the institution has satisfied the requirements of § 1005.6(a), the institution may withhold a maximum of $50 from the amount credited. An institution need not provisionally credit the consumer's account if:"
+      },
+      {
+        "section": "1026.13",
+        "score": 48.07358180951846,
+        "paragraph": "(i) Promptly reports that the amount or account is in dispute;"
+      }
+    ],
+    "valid": true,
+    "validation": "refusal has no quote",
+    "latency_ms": 7339.81,
+    "model": "Claude Haiku 5.5 via Claude Code",
+    "recorded_date": "2026-10-12"
+  },
+  {
+    "id": "2893443",
+    "answer": {
+      "section": "1026.13",
+      "quote": "A reflection on or with a periodic statement of an extension of credit that is not made to the consumer or to a person who has actual, implied, or apparent authority to use the consumer's credit card or open-end credit plan.",
+      "reason": "Credit card complaint about a purchase on a statement that the consumer says was unauthorized and disputed as fraud. The son's use of the card creates some authority ambiguity, but the consumer describes the charge as unauthorized."
+    },
+    "retrieved": [
+      {
+        "section": "1026.13",
+        "score": 69.17507865787242,
+        "paragraph": "(g) Creditor's rights and duties after resolution. If a creditor, after complying with all of the requirements of this section, determines that a consumer owes all or part of the disputed amount and related finance or other charges, the creditor:"
+      },
+      {
+        "section": "1005.11",
+        "score": 61.45714550645816,
+        "paragraph": "(ii) Notify the consumer that the institution will honor checks, drafts, or similar instruments payable to third parties and preauthorized transfers from the consumer's account (without charge to the consumer as a result of an overdraft) for five business days after the notification. The institution shall honor items as specified in the notice, but need honor only items that it would have paid if the provisionally credited funds had not been debited."
+      }
+    ],
+    "valid": true,
+    "validation": "verbatim quote matched fetched eCFR text",
+    "latency_ms": 10297.45,
+    "model": "Claude Haiku 5.5 via Claude Code",
+    "recorded_date": "2026-10-12"
+  },
+  {
+    "id": "2893464",
+    "answer": {
+      "section": "none",
+      "quote": "",
+      "reason": "The complaint is about a late payment appearing on the consumer's credit report, and the consumer is unsure how it happened. It does not clearly describe a credit card billing error under 1026.13(a), such as a payment not credited or a periodic statement error. It also does not describe an electronic fund transfer error under 1005.11."
+    },
+    "retrieved": [
+      {
+        "section": "1005.11",
+        "score": 20.99128635855839,
+        "paragraph": "(i) The applicable time is 20 business days in place of 10 business days under paragraphs (c)(1) and (2) of this section if the notice of error involves an electronic fund transfer to or from the account within 30 days after the first deposit to the account was made."
+      },
+      {
+        "section": "1026.13",
+        "score": 16.457571923098524,
+        "paragraph": "(i) Promptly reports that the amount or account is in dispute;"
+      }
+    ],
+    "valid": true,
+    "validation": "refusal has no quote",
+    "latency_ms": 7290.21,
+    "model": "Claude Haiku 5.5 via Claude Code",
+    "recorded_date": "2026-10-12"
+  },
+  {
+    "id": "2892615",
+    "answer": {
+      "section": "none",
+      "quote": "",
+      "reason": "Complaint concerns a promised rewards bonus (miles and statement credit) that was not posted under the card terms, not a reflection on a periodic statement of an erroneous extension of credit, payment crediting error, or computational error. Not 1026.13 as clearly described. Not an EFT account error, so not 1005.11."
+    },
+    "retrieved": [
+      {
+        "section": "1005.11",
+        "score": 146.43244612943795,
+        "paragraph": "(i) The applicable time is 20 business days in place of 10 business days under paragraphs (c)(1) and (2) of this section if the notice of error involves an electronic fund transfer to or from the account within 30 days after the first deposit to the account was made."
+      },
+      {
+        "section": "1026.13",
+        "score": 127.6881150994661,
+        "paragraph": "(1) A reflection on or with a periodic statement of an extension of credit that is not made to the consumer or to a person who has actual, implied, or apparent authority to use the consumer's credit card or open-end credit plan."
+      }
+    ],
+    "valid": true,
+    "validation": "refusal has no quote",
+    "latency_ms": 6904.28,
+    "model": "Claude Haiku 5.5 via Claude Code",
+    "recorded_date": "2026-10-12"
+  },
+  {
+    "id": "2893565",
+    "answer": {
+      "section": "1026.13",
+      "quote": "A reflection on or with a periodic statement of an extension of credit for property or services not accepted by the consumer or the consumer's designee, or not delivered to the consumer or the consumer's designee as agreed.",
+      "reason": "Consumer says the credit card was charged for a service they never requested and later cancelled. That fits 1026.13(a)(3), services not accepted by the consumer. The narrative does not explicitly mention a periodic statement, so the statement link is inferred."
+    },
+    "retrieved": [
+      {
+        "section": "1005.11",
+        "score": 51.40448949260503,
+        "paragraph": "(ii) Notify the consumer that the institution will honor checks, drafts, or similar instruments payable to third parties and preauthorized transfers from the consumer's account (without charge to the consumer as a result of an overdraft) for five business days after the notification. The institution shall honor items as specified in the notice, but need honor only items that it would have paid if the provisionally credited funds had not been debited."
+      },
+      {
+        "section": "1026.13",
+        "score": 26.989186037229874,
+        "paragraph": "(7) The creditor's failure to mail or deliver a periodic statement to the consumer's last known address if that address was received by the creditor, in writing, at least 20 days before the end of the billing cycle for which the statement was required."
+      }
+    ],
+    "valid": true,
+    "validation": "verbatim quote matched fetched eCFR text",
+    "latency_ms": 10501.36,
+    "model": "Claude Haiku 5.5 via Claude Code",
+    "recorded_date": "2026-10-12"
+  },
+  {
+    "id": "2893583",
+    "answer": {
+      "section": "none",
+      "quote": "",
+      "reason": "The complaint is about misleading promotional advertising and disputes the creditor's late-fee and interest practices. It does not clearly describe a 1026.13(a) billing error such as a statement amount that is wrong or a payment not credited. The product is a credit card, not an electronic fund transfer, so 1005.11 does not apply."
+    },
+    "retrieved": [
+      {
+        "section": "1005.11",
+        "score": 35.667894634979056,
+        "paragraph": "(i) Provisionally credits the consumer's account in the amount of the alleged error (including interest where applicable) within 10 business days of receiving the error notice. If the financial institution has a reasonable basis for believing that an unauthorized electronic fund transfer has occurred and the institution has satisfied the requirements of § 1005.6(a), the institution may withhold a maximum of $50 from the amount credited. An institution need not provisionally credit the consumer's account if:"
+      },
+      {
+        "section": "1026.13",
+        "score": 28.998826597873368,
+        "paragraph": "(1) Except with respect to a prepaid account as defined in § 1026.61, an extension of credit that is incident to an electronic fund transfer occurs under an agreement between the consumer and a financial institution to extend credit when the consumer's account is overdrawn or to maintain a specified minimum balance in the consumer's account; or"
+      }
+    ],
+    "valid": true,
+    "validation": "refusal has no quote",
+    "latency_ms": 9319.79,
+    "model": "Claude Haiku 5.5 via Claude Code",
+    "recorded_date": "2026-10-12"
+  },
+  {
+    "id": "2892512",
+    "answer": {
+      "section": "none",
+      "quote": "",
+      "reason": "The complaint describes a settlement agreement that the company will not honor, not a charge or error reflected on a periodic statement. No 1026.13(a) billing error category clearly fits, and it is not an electronic fund transfer error under 1005.11."
+    },
+    "retrieved": [
+      {
+        "section": "1005.11",
+        "score": 24.77689442014782,
+        "paragraph": "(ii) Notify the consumer that the institution will honor checks, drafts, or similar instruments payable to third parties and preauthorized transfers from the consumer's account (without charge to the consumer as a result of an overdraft) for five business days after the notification. The institution shall honor items as specified in the notice, but need honor only items that it would have paid if the provisionally credited funds had not been debited."
+      },
+      {
+        "section": "1026.13",
+        "score": 22.570115846148987,
+        "paragraph": "(3) A reflection on or with a periodic statement of an extension of credit for property or services not accepted by the consumer or the consumer's designee, or not delivered to the consumer or the consumer's designee as agreed."
+      }
+    ],
+    "valid": true,
+    "validation": "refusal has no quote",
+    "latency_ms": 8050.18,
+    "model": "Claude Haiku 5.5 via Claude Code",
+    "recorded_date": "2026-10-12"
+  },
+  {
+    "id": "3109824",
+    "answer": {
+      "section": "none",
+      "quote": "",
+      "reason": "Complaint concerns a mortgage loan modification and repayment plan, not an electronic fund transfer or a credit card billing error."
+    },
+    "retrieved": [
+      {
+        "section": "1005.11",
+        "score": 163.41900951461182,
+        "paragraph": "(3) Request for documentation or clarifications. When a notice of error is based on documentation or clarification that the consumer requested under paragraph (a)(1)(vii) of this section, the consumer's notice of error is timely if received by the financial institution no later than 60 days after the institution sends the information requested."
+      },
+      {
+        "section": "1026.13",
+        "score": 155.4404107202361,
+        "paragraph": "(3) A reflection on or with a periodic statement of an extension of credit for property or services not accepted by the consumer or the consumer's designee, or not delivered to the consumer or the consumer's designee as agreed."
+      }
+    ],
+    "valid": true,
+    "validation": "refusal has no quote",
+    "latency_ms": 5572.79,
+    "model": "Claude Haiku 5.5 via Claude Code",
+    "recorded_date": "2026-10-12"
+  },
+  {
+    "id": "4013536",
+    "answer": {
+      "section": "none",
+      "quote": "",
+      "reason": "Complaint concerns a mortgage lockout, eviction, foreclosure, and loss of property. It describes no unauthorized, incorrect, or omitted electronic fund transfer, and no credit card billing error."
+    },
+    "retrieved": [
+      {
+        "section": "1005.11",
+        "score": 58.71484585403322,
+        "paragraph": "(ii) Notify the consumer that the institution will honor checks, drafts, or similar instruments payable to third parties and preauthorized transfers from the consumer's account (without charge to the consumer as a result of an overdraft) for five business days after the notification. The institution shall honor items as specified in the notice, but need honor only items that it would have paid if the provisionally credited funds had not been debited."
+      },
+      {
+        "section": "1026.13",
+        "score": 55.94926282258714,
+        "paragraph": "(3) A reflection on or with a periodic statement of an extension of credit for property or services not accepted by the consumer or the consumer's designee, or not delivered to the consumer or the consumer's designee as agreed."
+      }
+    ],
+    "valid": true,
+    "validation": "refusal has no quote",
+    "latency_ms": 5650.29,
+    "model": "Claude Haiku 5.5 via Claude Code",
+    "recorded_date": "2026-10-12"
+  },
+  {
+    "id": "3305406",
+    "answer": {
+      "section": "none",
+      "quote": "",
+      "reason": "The complaint concerns a debt collector's failure to validate the debt, false statements, and credit bureau reporting. It does not describe an electronic fund transfer error (1005.11) or a credit card billing error reflected on a periodic statement (1026.13)."
+    },
+    "retrieved": [
+      {
+        "section": "1026.13",
+        "score": 106.67640689541457,
+        "paragraph": "(2) With regard to a covered separate credit feature and an asset feature of a prepaid account where both are accessible by a hybrid prepaid-credit card as defined in § 1026.61, an extension of credit that is incident to an electronic fund transfer occurs when the hybrid prepaid-credit card accesses both funds in the asset feature of the prepaid account and a credit extension from the credit feature with respect to a particular transaction."
+      },
+      {
+        "section": "1005.11",
+        "score": 103.50905995193914,
+        "paragraph": "(ii) Notify the consumer that the institution will honor checks, drafts, or similar instruments payable to third parties and preauthorized transfers from the consumer's account (without charge to the consumer as a result of an overdraft) for five business days after the notification. The institution shall honor items as specified in the notice, but need honor only items that it would have paid if the provisionally credited funds had not been debited."
+      }
+    ],
+    "valid": true,
+    "validation": "refusal has no quote",
+    "latency_ms": 7315.11,
+    "model": "Claude Haiku 5.5 via Claude Code",
+    "recorded_date": "2026-10-12"
+  },
+  {
+    "id": "3401596",
+    "answer": {
+      "section": "none",
+      "quote": "",
+      "reason": "Complaint concerns a mortgage application, rate lock, and an unauthorized credit pull. It does not describe an electronic fund transfer or account error (1005.11) or a credit card billing error (1026.13)."
+    },
+    "retrieved": [
+      {
+        "section": "1005.11",
+        "score": 232.0114041729199,
+        "paragraph": "(ii) Notify the consumer that the institution will honor checks, drafts, or similar instruments payable to third parties and preauthorized transfers from the consumer's account (without charge to the consumer as a result of an overdraft) for five business days after the notification. The institution shall honor items as specified in the notice, but need honor only items that it would have paid if the provisionally credited funds had not been debited."
+      },
+      {
+        "section": "1026.13",
+        "score": 199.28253772241632,
+        "paragraph": "(7) The creditor's failure to mail or deliver a periodic statement to the consumer's last known address if that address was received by the creditor, in writing, at least 20 days before the end of the billing cycle for which the statement was required."
+      }
+    ],
+    "valid": true,
+    "validation": "refusal has no quote",
+    "latency_ms": 6391.41,
+    "model": "Claude Haiku 5.5 via Claude Code",
+    "recorded_date": "2026-10-12"
+  },
+  {
+    "id": "3252713",
+    "answer": {
+      "section": "none",
+      "quote": "",
+      "reason": "The complaint describes debit card charges for services the consumer says were never provided. That is a dispute over the underlying vendor services, not a clear unauthorized or incorrect electronic fund transfer or account error under 1005.11. It is not a credit card billing error under 1026.13."
+    },
+    "retrieved": [
+      {
+        "section": "1005.11",
+        "score": 38.3876377116875,
+        "paragraph": "(i) The applicable time is 20 business days in place of 10 business days under paragraphs (c)(1) and (2) of this section if the notice of error involves an electronic fund transfer to or from the account within 30 days after the first deposit to the account was made."
+      },
+      {
+        "section": "1026.13",
+        "score": 33.57103866145857,
+        "paragraph": "(i) Promptly reports that the amount or account is in dispute;"
+      }
+    ],
+    "valid": true,
+    "validation": "refusal has no quote",
+    "latency_ms": 8531.59,
+    "model": "Claude Haiku 5.5 via Claude Code",
+    "recorded_date": "2026-10-12"
+  },
+  {
+    "id": "3731668",
+    "answer": {
+      "section": "none",
+      "quote": "",
+      "reason": "Complaint concerns a school loan disbursement reported as a debt on a credit report, not an electronic fund transfer or account error (1005.11) and not a credit card periodic-statement billing error (1026.13)."
+    },
+    "retrieved": [
+      {
+        "section": "1026.13",
+        "score": 41.38606139917013,
+        "paragraph": "(4) Permitted creditor actions. A creditor is not prohibited from taking action to collect any undisputed portion of the item or bill; from deducting any disputed amount and related finance or other charges from the consumer's credit limit on the account; or from reflecting a disputed amount and related finance or other charges on a periodic statement, provided that the creditor indicates on or with the periodic statement that payment of any disputed amount and related finance or other charges is not required pending the creditor's compliance with this section."
+      },
+      {
+        "section": "1005.11",
+        "score": 37.026802388386976,
+        "paragraph": "(1) Written explanation. The institution's report of the results of its investigation shall include a written explanation of the institution's findings and shall note the consumer's right to request the documents that the institution relied on in making its determination. Upon request, the institution shall promptly provide copies of the documents."
+      }
+    ],
+    "valid": true,
+    "validation": "refusal has no quote",
+    "latency_ms": 5846.87,
+    "model": "Claude Haiku 5.5 via Claude Code",
+    "recorded_date": "2026-10-12"
+  },
+  {
+    "id": "3003880",
+    "answer": {
+      "section": "1005.11",
+      "quote": "(i) An unauthorized electronic fund transfer;",
+      "reason": "Complaint describes an unauthorized $250 withdrawal from the consumer's checking account, and automatic payments continued after the consumer rescinded authorization, causing overdrafts. No credit card billing error is described, so 1026.13 does not apply."
+    },
+    "retrieved": [
+      {
+        "section": "1005.11",
+        "score": 117.91901584892203,
+        "paragraph": "(i) The applicable time is 20 business days in place of 10 business days under paragraphs (c)(1) and (2) of this section if the notice of error involves an electronic fund transfer to or from the account within 30 days after the first deposit to the account was made."
+      },
+      {
+        "section": "1026.13",
+        "score": 110.75900704021421,
+        "paragraph": "(4) May not report that an amount or account is delinquent because the amount due under paragraph (g)(1) of the section remains unpaid, if the creditor receives (within the time allowed for payment in paragraph (g)(3) of this section) further written notice from the consumer that any portion of the billing error is still in dispute, unless the creditor also:"
+      }
+    ],
+    "valid": true,
+    "validation": "verbatim quote matched fetched eCFR text",
+    "latency_ms": 8801.04,
+    "model": "Claude Haiku 5.5 via Claude Code",
+    "recorded_date": "2026-10-12"
+  },
+  {
+    "id": "4067660",
+    "answer": {
+      "section": "none",
+      "quote": "",
+      "reason": "The complaint is about a debt collector seeking payment on a payday loan the consumer does not recall taking. It does not describe an electronic fund transfer or account error (1005.11), or a credit card billing error on a periodic statement (1026.13)."
+    },
+    "retrieved": [
+      {
+        "section": "1005.11",
+        "score": 17.42344988843139,
+        "paragraph": "(i) Provisionally credits the consumer's account in the amount of the alleged error (including interest where applicable) within 10 business days of receiving the error notice. If the financial institution has a reasonable basis for believing that an unauthorized electronic fund transfer has occurred and the institution has satisfied the requirements of § 1005.6(a), the institution may withhold a maximum of $50 from the amount credited. An institution need not provisionally credit the consumer's account if:"
+      },
+      {
+        "section": "1026.13",
+        "score": 13.660225727109594,
+        "paragraph": "(1) Except with respect to a prepaid account as defined in § 1026.61, an extension of credit that is incident to an electronic fund transfer occurs under an agreement between the consumer and a financial institution to extend credit when the consumer's account is overdrawn or to maintain a specified minimum balance in the consumer's account; or"
+      }
+    ],
+    "valid": true,
+    "validation": "refusal has no quote",
+    "latency_ms": 6042.45,
+    "model": "Claude Haiku 5.5 via Claude Code",
+    "recorded_date": "2026-10-12"
+  },
+  {
+    "id": "2892141",
+    "answer": {
+      "section": "none",
+      "quote": "",
+      "reason": "Mortgage complaint. It does not clearly describe an electronic fund transfer error (the payment method is never stated as an EFT, and the posting problems are on the lender's ledger) and the account is not a credit card, so neither candidate section clearly applies."
+    },
+    "retrieved": [
+      {
+        "section": "1005.11",
+        "score": 334.18830792598266,
+        "paragraph": "(i) The applicable time is 20 business days in place of 10 business days under paragraphs (c)(1) and (2) of this section if the notice of error involves an electronic fund transfer to or from the account within 30 days after the first deposit to the account was made."
+      },
+      {
+        "section": "1026.13",
+        "score": 321.48309067265666,
+        "paragraph": "(7) The creditor's failure to mail or deliver a periodic statement to the consumer's last known address if that address was received by the creditor, in writing, at least 20 days before the end of the billing cycle for which the statement was required."
+      }
+    ],
+    "valid": true,
+    "validation": "refusal has no quote",
+    "latency_ms": 8547.8,
+    "model": "Claude Haiku 5.5 via Claude Code",
+    "recorded_date": "2026-10-12"
+  },
+  {
+    "id": "2892145",
+    "answer": {
+      "section": "none",
+      "quote": "",
+      "reason": "Complaint describes a mortgage payment misapplied by a mortgage servicer, not an electronic fund transfer error (1005.11) or a credit card billing error (1026.13)."
+    },
+    "retrieved": [
+      {
+        "section": "1026.13",
+        "score": 43.438150651845056,
+        "paragraph": "(4) A reflection on a periodic statement of the creditor's failure to credit properly a payment or other credit issued to the consumer's account."
+      },
+      {
+        "section": "1005.11",
+        "score": 29.09168177828793,
+        "paragraph": "(i) The applicable time is 20 business days in place of 10 business days under paragraphs (c)(1) and (2) of this section if the notice of error involves an electronic fund transfer to or from the account within 30 days after the first deposit to the account was made."
+      }
+    ],
+    "valid": true,
+    "validation": "refusal has no quote",
+    "latency_ms": 6330.14,
+    "model": "Claude Haiku 5.5 via Claude Code",
+    "recorded_date": "2026-10-12"
+  }
+]

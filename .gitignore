@@ -1,0 +1,9 @@
+.venv/
+raw/
+__pycache__/
+.pytest_cache/
+.DS_Store
+node_modules/
+*.pyc
+site/data/llm_cache/
+site/data/*.tmp
