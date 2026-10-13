@@ -1,3 +1,5 @@
+const RULE_NAMES = { "1005.11": "Debit card and transfer errors rule", "1026.13": "Credit card billing errors rule" };
+const ruleName = (section) => `${RULE_NAMES[section] || "Rule"} (12 CFR ${section})`;
 const DATA_ROOT = "data/";
 const state = { cases: [], runs: [], regulations: [], reviewed: new Set() };
 
@@ -32,7 +34,7 @@ function renderCase(caseId) {
   const reviewed = state.reviewed.has(caseItem.id);
   $("#case-meta").innerHTML = [caseItem.product, caseItem.issue, `Complaint ${caseItem.id}`].map((item) => `<span>${escapeHtml(item)}</span>`).join("");
   $("#case-narrative").textContent = caseItem.narrative;
-  $("#case-answer").textContent = isRefusal ? "No rule applies" : `12 CFR ${run.answer.section}`;
+  $("#case-answer").textContent = isRefusal ? "No rule applies" : ruleName(run.answer.section);
   $("#case-reason").textContent = run.answer.reason;
   const quote = $("#case-quote");
   quote.textContent = isRefusal ? "The AI found no rule that fits this complaint, so it did not quote one." : run.answer.quote;
@@ -42,7 +44,7 @@ function renderCase(caseId) {
   badge.className = `review-badge ${isRefusal ? "is-refusal" : ""}`;
   $("#review-button").textContent = reviewed ? "Approved" : "Approve";
   $("#review-button").disabled = reviewed;
-  $("#retrieved-list").innerHTML = run.retrieved.map((item, rank) => `<div class="retrieved-row"><strong>${rank + 1}. 12 CFR ${escapeHtml(item.section)}</strong><span>match score ${item.score.toFixed(2)}</span></div>`).join("");
+  $("#retrieved-list").innerHTML = run.retrieved.map((item, rank) => `<div class="retrieved-row"><strong>${rank + 1}. ${escapeHtml(ruleName(item.section))}</strong><span>match score ${item.score.toFixed(2)}</span></div>`).join("");
   $("#case-source").href = caseItem.source_url;
   $("#case-source").textContent = "public complaint archive";
 }
@@ -98,7 +100,7 @@ async function runLive() {
     const answer = await callProvider(provider, key, complaint, retrieved);
     const valid = verifyQuote(answer, state.regulations);
     const latency = Math.round(performance.now() - started);
-    const section = answer.section === "none" ? "No rule applies" : `12 CFR ${answer.section}`;
+    const section = answer.section === "none" ? "No rule applies" : ruleName(answer.section);
     setLiveStatus(`${section}. Quote check ${valid ? "passed" : "failed (the quote is not in the rule)"}. Answered in ${formatNumber(latency)} milliseconds. A person should review this before acting.`, valid ? "success" : "error");
     $("#live-output").innerHTML = `<strong>${escapeHtml(section)}</strong><p>${escapeHtml(answer.quote || "The AI said no rule applies.")}</p><small>${escapeHtml(answer.reason || "No reason given.")}</small>`;
   } catch (error) {
