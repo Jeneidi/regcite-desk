@@ -7,3 +7,4 @@ node_modules/
 *.pyc
 site/data/llm_cache/
 site/data/*.tmp
+.vercel
